@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>NH Global Education</title>
+    <style>
+      .swiper-button-next,
+      .swiper-button-prev {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .swiper-button-next::after,
+      .swiper-button-prev::after {
+        font-size: 22px;
+      }
+      .swiper-pagination-bullet-active {
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <!-- Header -->
+    <section id="header"></section>
+    <script></script>
+
+    <!-- Hero Section -->
+    <section class="relative m-4 rounded-2xl overflow-hidden">
+      <div class="swiper-container h-[calc(100vh-150px)]">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url('https://cdn.nhglobaleducation.com/hero/1.jpg'); background-size: cover; background-position: center"></div>
+          <div class="swiper-slide" style="background-image: url('https://cdn.nhglobaleducation.com/hero/2.jpg'); background-size: cover; background-position: center"></div>
+          <div class="swiper-slide" style="background-image: url('https://cdn.nhglobaleducation.com/hero/4.jpg'); background-size: cover; background-position: center"></div>
+          <div class="swiper-slide" style="background-image: url('https://cdn.nhglobaleducation.com/hero/5.jpg'); background-size: cover; background-position: center"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center">
+        <div class="container mx-auto px-4 text-white">
+          <h1 class="text-5xl md:text-6xl font-bold max-w-2xl">Your Gateway to Global Education</h1>
+          <p class="mt-4 text-lg max-w-xl">We are a leading overseas education consultant in Bangladesh, dedicated to helping students achieve their academic and career goals.</p>
+          <div class="mt-8">
+            <a href="#" class="bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800">Explore Universities</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Study Destinations Section -->
+    <section class="py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center text-gray-800">Popular Study Destinations</h2>
+        <p class="text-center text-gray-600 mt-2 mb-12">Explore top destinations where thousands of students have built their futures.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-24">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+            <img src="https://cdn.nhglobaleducation.com/destination/malaysia.jpg" alt="Malaysia" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-gray-800">Malaysia</h3>
+              <p class="text-gray-600 mt-2">Experience world-renowned education in the heart of history and innovation.</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+            <img src="https://cdn.nhglobaleducation.com/destination/Australia.jpg" alt="Australia" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-gray-800">Australia</h3>
+              <p class="text-gray-600 mt-2">Study in one of the world's most liveable cities with stunning coastal views.</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+            <img src="https://cdn.nhglobaleducation.com/destination/Canada.jpg" alt="Canada" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-gray-800">Canada</h3>
+              <p class="text-gray-600 mt-2">Discover multicultural excellence in North America's education hub.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center text-gray-800">Comprehensive Study Abroad Services</h2>
+        <p class="text-center text-gray-600 mt-2 mb-12">From initial consultation to graduation day, we provide end-to-end support.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-24">
+          <div class="bg-white p-8 rounded-xl shadow-md text-center">
+            <i class="fa-solid fa-file-lines text-4xl text-blue-700 mb-4"></i>
+            <h3 class="text-xl font-bold mb-2">Application Assistance</h3>
+            <p class="text-gray-600">Complete guidance through university applications, document preparation, and submission.</p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-md text-center">
+            <i class="fa-solid fa-graduation-cap text-4xl text-blue-700 mb-4"></i>
+            <h3 class="text-xl font-bold mb-2">Scholarship Guidance</h3>
+            <p class="text-gray-600">Maximize your funding opportunities with our comprehensive scholarship support.</p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-md text-center">
+            <i class="fa-solid fa-passport text-4xl text-blue-700 mb-4"></i>
+            <h3 class="text-xl font-bold mb-2">Visa Support</h3>
+            <p class="text-gray-600">Expert assistance with visa applications, interviews, and documentation.</p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-md text-center">
+            <i class="fa-solid fa-plane-departure text-4xl text-blue-700 mb-4"></i>
+            <h3 class="text-xl font-bold mb-2">Pre-Departure</h3>
+            <p class="text-gray-600">Comprehensive preparation for your journey including travel and accommodation.</p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-md text-center">
+            <i class="fa-solid fa-house-user text-4xl text-blue-700 mb-4"></i>
+            <h3 class="text-xl font-bold mb-2">Accommodation</h3>
+            <p class="text-gray-600">Find the perfect place to call home with our network of verified accommodations.</p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-md text-center">
+            <i class="fa-solid fa-headset text-4xl text-blue-700 mb-4"></i>
+            <h3 class="text-xl font-bold mb-2">24/7 Support</h3>
+            <p class="text-gray-600">Round-the-clock assistance throughout your study abroad journey.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section class="py-20 max-w-[100vw]">
+      <h2 class="text-4xl font-bold text-center text-gray-800">Success Stories from Our Students</h2>
+      <p class="text-center text-gray-600 mt-2 mb-12">Join thousands of successful students who have achieved their study abroad dreams.</p>
+
+      <div class="pb-12 flex justify-center gap-8 max-w-[100vw] mx-24">
+        <div class="shadow-lg border border-gray-200/50 rounded-xl">
+          <div class="bg-gray-100 p-8 rounded-lg">
+            <p class="text-gray-600 italic">"Nhglobaleducation made my dream of studying at Cambridge a reality. Their guidance through the application process was invaluable, and the visa support was exceptional."</p>
+            <div class="flex items-center mt-6">
+              <img src="https://ui-avatars.com/api/?name=Sarah+Chen&background=1E88E5&color=fff" alt="Sarah Chen" class="w-12 h-12 rounded-full" />
+              <div class="ml-4">
+                <h4 class="font-bold text-gray-800">Sarah Chen</h4>
+                <p class="text-sm text-gray-500">Computer Science, University of Cambridge</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg border border-gray-200/50 rounded-xl">
+          <div class="bg-gray-100 p-8 rounded-lg">
+            <p class="text-gray-600 italic">"The scholarship guidance helped me secure $50,000 in funding. I couldn't have navigated the complex process without their expert team."</p>
+            <div class="flex items-center mt-6">
+              <img src="https://ui-avatars.com/api/?name=Marcus+Johnson&background=1E88E5&color=fff" alt="Marcus Johnson" class="w-12 h-12 rounded-full" />
+              <div class="ml-4">
+                <h4 class="font-bold text-gray-800">Marcus Johnson</h4>
+                <p class="text-sm text-gray-500">Medicine, University of Melbourne</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg border border-gray-200/50 rounded-xl">
+          <div class="bg-gray-100 p-8 rounded-lg">
+            <p class="text-gray-600 italic">"From application to accommodation, every step was handled professionally. Now I'm thriving in Toronto and building my career in data analytics."</p>
+            <div class="flex items-center mt-6">
+              <img src="https://ui-avatars.com/api/?name=Priya+Sharma&background=1E88E5&color=fff" alt="Priya Sharma" class="w-12 h-12 rounded-full" />
+              <div class="ml-4">
+                <h4 class="font-bold text-gray-800">Priya Sharma</h4>
+                <p class="text-sm text-gray-500">Business Analytics, University of Toronto</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <div id="footer"></div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
