@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | StudentAbroad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white min-h-screen flex flex-col">
+    <div id="header"></div>
+    <!-- Banner -->
+    <div class="bg-[linear-gradient(90deg,_#002147_0%,_#003A7D_50%,_#002147_100%)] text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 text-center">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold">Contact Us</h1>
+        <p class="mt-4 text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto">Ready to start your study-abroad journey? Get in touch with our expert counselors today.</p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <main class="flex-1">
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 pb-12">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- Form -->
+          <div class="lg:col-span-2 bg-white border border-gray-200 rounded-2xl shadow-xl p-6">
+            <h2 class="text-2xl text-center font-bold text-orange-400">Send Us a Message</h2>
+
+            <form id="contactForm" class="mt-5 space-y-4" novalidate>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="firstName" class="block text-sm font-medium text-gray-700">First Name</label>
+                  <input id="firstName" name="firstName" type="text" required placeholder="Enter your first name" class="mt-1 w-full h-11 rounded-lg border border-gray-300 px-3 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500" />
+                  <p class="mt-1 text-xs text-red-600 hidden" data-err="firstName">Please enter your first name</p>
+                </div>
+                <div>
+                  <label for="lastName" class="block text-sm font-medium text-gray-700">Last Name</label>
+                  <input id="lastName" name="lastName" type="text" required placeholder="Enter your last name" class="mt-1 w-full h-11 rounded-lg border border-gray-300 px-3 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500" />
+                  <p class="mt-1 text-xs text-red-600 hidden" data-err="lastName">Please enter your last name</p>
+                </div>
+              </div>
+
+              <div>
+                <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                <input id="email" name="email" type="email" required placeholder="Enter your email" class="mt-1 w-full h-11 rounded-lg border border-gray-300 px-3 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500" />
+                <p class="mt-1 text-xs text-red-600 hidden" data-err="email">Please enter a valid email</p>
+              </div>
+
+              <div>
+                <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                <input id="phone" name="phone" type="tel" placeholder="Enter your phone number" class="mt-1 w-full h-11 rounded-lg border border-gray-300 px-3 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500" />
+              </div>
+
+              <div>
+                <label for="destination" class="block text-sm font-medium text-gray-700">Preferred Destination</label>
+                <input list="destinations" id="destination" name="destination" placeholder="e.g., Malaysia, Australia, Canada" class="mt-1 w-full h-11 rounded-lg border border-gray-300 px-3 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500" />
+                <datalist id="destinations">
+                  <option>Malaysia</option>
+                  <option>Australia</option>
+                  <option>Canada</option>
+                  <option>Germany</option>
+                  <option>United Kingdom</option>
+                  <option>United States</option>
+                  <option>Netherlands</option>
+                </datalist>
+              </div>
+
+              <div>
+                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                <textarea id="message" name="message" rows="5" maxlength="800" required placeholder="Tell us about your study abroad goals and any questions you have..." class="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500"></textarea>
+                <div class="mt-1 flex items-center justify-between">
+                  <p class="text-xs text-red-600 hidden" data-err="message">Please enter a message</p>
+                  <span class="text-xs text-gray-500"><span id="msgCount">0</span>/800</span>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <input id="consent" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
+                <label for="consent" class="text-sm text-gray-700"
+                  >I agree to the
+                  <a href="#" class="text-blue-600 underline">Privacy Policy</a>
+                </label>
+              </div>
+
+              <div class="flex items-center gap-3 pt-1">
+                <button id="sendBtn" type="submit" class="inline-flex items-center justify-center gap-2 px-5 h-11 rounded-lg bg-orange-500 text-white font-medium hover:bg-blue-700 shadow">
+                  <svg id="btnSpinner" class="hidden w-5 h-5 animate-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10" class="opacity-20"></circle>
+                    <path d="M12 2a10 10 0 0 1 10 10" class="opacity-80"></path>
+                  </svg>
+                  <span>Send Message</span>
+                </button>
+                <a href="https://wa.me/601161175133" target="_blank" class="inline-flex items-center gap-2 px-4 h-11 rounded-lg border border-green-200 text-green-700 hover:bg-green-50">
+                  <svg class="w-5 h-5" viewBox="0 0 32 32" fill="currentColor">
+                    <path d="M19.11 17.04c-.3-.14-1.79-.88-2.07-.98-.28-.1-.48-.14-.68.14-.2.28-.78.98-.96 1.18-.18.2-.36.22-.66.08-.3-.14-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.6.13-.12.3-.3.45-.45.15-.15.2-.26.3-.44.1-.18.05-.34-.02-.48-.08-.14-.68-1.64-.93-2.26-.25-.6-.5-.52-.68-.53h-.58c-.2 0-.48.06-.73.34-.25.28-.96.94-.96 2.28 0 1.34.98 2.63 1.12 2.82.14.2 1.93 2.95 4.67 4.13.65.28 1.15.45 1.54.58.65.2 1.24.17 1.7.1.52-.08 1.79-.73 2.05-1.44.25-.72.25-1.33.17-1.46-.08-.12-.26-.2-.56-.34z" />
+                    <path d="M27.67 4.33C24.83 1.49 21.03 0 17 0 7.61 0 0 7.61 0 17c0 2.98.78 5.9 2.27 8.46L.02 31.98l6.67-2.18A16.91 16.91 0 0 0 17 34c9.39 0 17-7.61 17-17 0-4.03-1.49-7.83-4.33-10.67zM17 30.5c-2.87 0-5.65-.84-8.04-2.44l-.58-.37-3.96 1.3 1.32-3.86-.38-.6A13.44 13.44 0 0 1 3.5 17C3.5 9.04 9.04 3.5 17 3.5S30.5 9.04 30.5 17 24.96 30.5 17 30.5z" />
+                  </svg>
+                  WhatsApp
+                </a>
+              </div>
+            </form>
+          </div>
+
+          <!-- Contact details -->
+          <aside class="space-y-4">
+            <!-- Offices -->
+            <div class="rounded-2xl border border-gray-200 bg-white p-5">
+              <div class="flex items-start gap-3">
+                <svg class="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                <div>
+                  <p class="font-semibold text-gray-900">Bangladesh Office</p>
+                  <p class="text-sm text-gray-600 mt-1">
+                    Darus-Salam Arcade, 6th Floor (5th lift) <br />
+                    14 Purana Paltan, Dhaka 1000, Bangladesh
+                  </p>
+                </div>
+              </div>
+              <div class="mt-4 flex items-start gap-3">
+                <svg class="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                <div>
+                  <p class="font-semibold text-gray-900">Malaysia Office</p>
+                  <p class="text-sm text-gray-600 mt-1">
+                    Suite 32-01, 32nd Floor, Menara Keck Seng (Opposite Pavilion Mall) <br />
+                    203 Jalan Bukit Bintang, 55100 Kuala Lumpur, Malaysia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phones -->
+            <div class="rounded-2xl border border-gray-200 bg-white p-5">
+              <div class="flex items-start gap-3">
+                <svg class="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.9v2a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.6A2 2 0 0 1 4 1.1h2a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.5 2.1L7 8.8a16 16 0 0 0 6.2 6.2l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.7 2z" />
+                </svg>
+                <div class="w-full">
+                  <p class="font-semibold text-gray-900">Phone</p>
+                  <ul class="mt-1 text-sm text-gray-700 space-y-1">
+                    <li class="flex items-center justify-between">
+                      <a class="hover:underline" href="tel:+8801961656769">+880 1961-656769 (Bangladesh)</a>
+                      <button class="text-xs text-blue-600 hover:underline copy" data-copy="+8801961656769">Copy</button>
+                    </li>
+                    <li class="flex items-center justify-between">
+                      <a class="hover:underline" href="tel:+8801618660577">+880 1618-660577</a>
+                      <button class="text-xs text-blue-600 hover:underline copy" data-copy="+8801618660577">Copy</button>
+                    </li>
+                    <li class="flex items-center justify-between">
+                      <a class="hover:underline" href="tel:+601161175133">+60 11-6117 5133 (Malaysia)</a>
+                      <button class="text-xs text-blue-600 hover:underline copy" data-copy="+601161175133">Copy</button>
+                    </li>
+                    <li class="flex items-center justify-between">
+                      <a class="hover:underline" href="tel:+601161785257">+60 11-6178 5257</a>
+                      <button class="text-xs text-blue-600 hover:underline copy" data-copy="+601161785257">Copy</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="rounded-2xl border border-gray-200 bg-white p-5">
+              <div class="flex items-start gap-3">
+                <svg class="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16a2 2 0 0 1 2 2v1l-10 6L2 7V6a2 2 0 0 1 2-2z" />
+                  <path d="M22 8l-10 6L2 8" />
+                </svg>
+                <div class="w-full">
+                  <p class="font-semibold text-gray-900">Email</p>
+                  <div class="mt-1 flex items-center justify-between text-sm text-gray-700">
+                    <a class="hover:underline break-all" href="mailto:enquiry@nhglobaleducation.com">enquiry@nhglobaleducation.com</a>
+                    <button class="text-xs text-blue-600 hover:underline copy" data-copy="enquiry@nhglobaleducation.com">Copy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <!-- Toast -->
+    <div id="toast" class="pointer-events-none fixed inset-x-0 bottom-6 flex justify-center px-4 hidden">
+      <div class="pointer-events-auto rounded-lg bg-gray-900 text-white px-4 py-2 shadow-lg text-sm" id="toastMsg">—</div>
+    </div>
+
+    <div id="footer"></div>
+    <script src="script.js"></script>
+    <script>
+      // Helpers
+      const toast = document.getElementById("toast");
+      const toastMsg = document.getElementById("toastMsg");
+      const showToast = m => {
+        toastMsg.textContent = m;
+        toast.classList.remove("hidden");
+        setTimeout(() => toast.classList.add("hidden"), 1800);
+      };
+
+      // Copy buttons
+      document.querySelectorAll(".copy").forEach(btn => {
+        btn.addEventListener("click", async () => {
+          try {
+            await navigator.clipboard.writeText(btn.dataset.copy);
+            showToast("Copied to clipboard");
+          } catch {
+            showToast("Copy not available");
+          }
+        });
+      });
+
+      // Form logic
+      const form = document.getElementById("contactForm");
+      const sendBtn = document.getElementById("sendBtn");
+      const btnSpinner = document.getElementById("btnSpinner");
+      const msg = document.getElementById("message");
+      const msgCount = document.getElementById("msgCount");
+
+      // Character counter
+      msg.addEventListener("input", () => {
+        msgCount.textContent = msg.value.length;
+      });
+
+      // Persist last contact info
+      const STORAGE_KEY = "sa_contact_last";
+      window.addEventListener("DOMContentLoaded", () => {
+        try {
+          const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+          if (saved) {
+            ["firstName", "lastName", "email", "phone", "destination", "message", "consent"].forEach(k => {
+              const el = document.getElementById(k);
+              if (!el) return;
+              if (k === "consent") el.checked = saved[k] || false;
+              else el.value = saved[k] || "";
+            });
+            msgCount.textContent = (document.getElementById("message").value || "").length;
+          }
+        } catch {}
+      });
+
+      function showError(id, on) {
+        const err = document.querySelector(`[data-err="${id}"]`);
+        if (err) err.classList.toggle("hidden", !on);
+      }
+
+      function validate() {
+        let ok = true;
+        const firstName = document.getElementById("firstName").value.trim();
+        const lastName = document.getElementById("lastName").value.trim();
+        const email = document.getElementById("email").value.trim().toLowerCase();
+        const message = document.getElementById("message").value.trim();
+
+        if (!firstName) {
+          showError("firstName", true);
+          ok = false;
+        } else showError("firstName", false);
+        if (!lastName) {
+          showError("lastName", true);
+          ok = false;
+        } else showError("lastName", false);
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          showError("email", true);
+          ok = false;
+        } else showError("email", false);
+        if (!message) {
+          showError("message", true);
+          ok = false;
+        } else showError("message", false);
+
+        return ok;
+      }
+
+      form.addEventListener("submit", async e => {
+        e.preventDefault();
+        if (!validate()) return;
+
+        // Save to localStorage
+        const data = {};
+        ["firstName", "lastName", "email", "phone", "destination", "message", "consent"].forEach(k => {
+          const el = document.getElementById(k);
+          data[k] = el.type === "checkbox" ? el.checked : el.value.trim();
+        });
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+
+        // Loading state
+        sendBtn.disabled = true;
+        btnSpinner.classList.remove("hidden");
+
+        // Simulate API call
+        await new Promise(res => setTimeout(res, 900));
+
+        btnSpinner.classList.add("hidden");
+        sendBtn.disabled = false;
+        showToast("Thanks! Your message has been sent.");
+
+        // Optional: clear message only
+        document.getElementById("message").value = "";
+        msgCount.textContent = "0";
+      });
+    </script>
+  </body>
+</html>

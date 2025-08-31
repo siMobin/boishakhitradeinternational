@@ -62,3 +62,34 @@ function initializeSwiper() {
     },
   });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const tabs = document.querySelectorAll(".tab-item");
+  const tabContents = document.querySelectorAll(".tab-content");
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      // Deactivate all tabs
+      tabs.forEach(item => {
+        item.classList.remove("active-tab", "bg-[#002147]", "text-white");
+        item.classList.add("hover:bg-[#002147]/10");
+      });
+
+      // Activate the clicked tab
+      tab.classList.add("active-tab", "bg-[#002147]", "text-white");
+      tab.classList.remove("hover:bg-[#002147]/10");
+
+      // Hide all tab contents
+      tabContents.forEach(content => {
+        content.classList.add("hidden");
+      });
+
+      // Show the corresponding tab content
+      const tabId = tab.getAttribute("data-tab");
+      const activeContent = document.getElementById(tabId);
+      if (activeContent) {
+        activeContent.classList.remove("hidden");
+      }
+    });
+  });
+});

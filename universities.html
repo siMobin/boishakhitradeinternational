@@ -3,9 +3,330 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Universities</title>
+    <title>Universities | StudentAbroad</title>
+    <script loading="lazy" src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    From universities.html
+  <body class="bg-white min-h-screen flex flex-col">
+    <div id="header"></div>
+
+    <!-- Banner -->
+    <div class="bg-[linear-gradient(90deg,_#002147_0%,_#003A7D_50%,_#002147_100%)] text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 text-center">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold">World-Top Universities</h1>
+        <p class="mt-4 text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto">Discover top-ranked universities worldwide and find your perfect academic destination.</p>
+      </div>
+    </div>
+
+    <!-- Search Bar -->
+    <section class="bg-gray-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8">
+        <form id="searchForm" class="bg-white rounded-xl shadow-lg p-3 sm:p-4 flex flex-col md:flex-row gap-3 items-stretch">
+          <!-- Search input -->
+          <div class="relative flex-1">
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="M21 21l-4.3-4.3"></path>
+            </svg>
+            <input id="query" type="text" placeholder="Search universities..." class="w-full h-12 pl-10 pr-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-200 focus:border-orange-500" />
+          </div>
+
+          <!-- Country filter -->
+          <select id="country" class="h-12 w-full md:w-48 rounded-lg border border-gray-300 px-3 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500 bg-white">
+            <option value="all">All Countries</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Germany">Germany</option>
+            <option value="United States">United States</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Canada">Canada</option>
+            <option value="Netherlands">Netherlands</option>
+          </select>
+
+          <!-- Submit -->
+          <button type="submit" class="h-12 px-6 rounded-lg bg-orange-500 text-white font-medium hover:bg-blue-300 shadow-sm">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Cards -->
+    <main class="flex-1">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div id="cardsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <article class="uni-card rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition" data-name="City University Malaysia" data-country="Malaysia">
+            <div class="h-44 w-full overflow-hidden">
+              <img class="w-full h-full object-cover" loading="lazy" src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1200&auto=format&fit=crop" alt="City University Malaysia campus" />
+            </div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold text-gray-900">City University Malaysia</h3>
+              <p class="mt-1 text-sm text-gray-600 flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                Kuala Lumpur, Malaysia
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-medium">Business</span>
+                <span class="px-2.5 py-1 rounded-full bg-green-50 text-green-700 text-xs font-medium">Engineering</span>
+              </div>
+              <div class="mt-5 flex gap-3">
+                <a href="https://city.edu.my/" class="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-teal-500">Learn More</a>
+                <a href="https://city.edu.my/apply-now/" class="px-4 py-2 rounded-lg border text-sm font-medium text-blue-700 border-blue-200 hover:bg-blue-100">Apply</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="uni-card rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition" data-name="University of Malaya" data-country="Malaysia">
+            <div class="h-44 w-full overflow-hidden">
+              <img class="w-full h-full object-cover" loading="lazy" src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1200&auto=format&fit=crop" alt="University of Malaya campus" />
+            </div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold text-gray-900">University of Malaya</h3>
+              <p class="mt-1 text-sm text-gray-600 flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                Kuala Lumpur, Malaysia
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-full bg-orange-50 text-orange-700 text-xs font-medium">Economics</span>
+                <span class="px-2.5 py-1 rounded-full bg-cyan-50 text-cyan-700 text-xs font-medium">Public Health</span>
+              </div>
+
+              <div class="mt-5 flex gap-3">
+                <a href="https://study.um.edu.my/?gad_source=1&gad_campaignid=22502189275&gbraid=0AAAAA_fm2CX-FWHZ4XTFTJDqcvefw5dSU&gclid=Cj0KCQjwwsrFBhD6ARIsAPnUFD04gbFEGhOSj4Voj4GXBJE-KJKm6tbP_BDcVmmnB9n7nMqmpCz5pu4aArYYEALw_wcB" class="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-teal-500">Learn More</a>
+                <a href="https://study.um.edu.my/how-to-apply-bachelor-rsquo-s-degree" class="px-4 py-2 rounded-lg border text-sm font-medium text-blue-700 border-blue-200 hover:bg-blue-100">Apply</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="uni-card rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition" data-name="University of Malaya" data-country="Malaysia">
+            <div class="h-44 w-full overflow-hidden">
+              <img class="w-full h-full object-cover" loading="lazy" src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f" alt="University of Malaya campus" />
+            </div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold text-gray-900">Universiti Putra Malaysia</h3>
+              <p class="mt-1 text-sm text-gray-600 flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                Seri Kembangan, Malaysia
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-full bg-orange-50 text-orange-700 text-xs font-medium">Economics</span>
+                <span class="px-2.5 py-1 rounded-full bg-cyan-50 text-cyan-700 text-xs font-medium">Public Health</span>
+              </div>
+              <div class="mt-5 flex gap-3">
+                <a href=" https://upm.edu.my/" class="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-teal-500">Learn More</a>
+                <a href="https://upm.edu.my/admission/how_to_apply-14945" class="px-4 py-2 rounded-lg border text-sm font-medium text-blue-700 border-blue-200 hover:bg-blue-100">Apply</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3-->
+          <article class="uni-card rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition" data-name="Multimedia University Malaysia" data-country="Malaysia">
+            <div class="h-44 w-full overflow-hidden">
+              <img class="w-full h-full object-cover" loading="lazy" src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80" />
+            </div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold text-gray-900">Multimedia Multimedia University</h3>
+              <p class="mt-1 text-sm text-gray-600 flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                Kuala Lumpur, Malaysia
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-full bg-orange-50 text-orange-700 text-xs font-medium">Economics</span>
+                <span class="px-2.5 py-1 rounded-full bg-cyan-50 text-cyan-700 text-xs font-medium">Public Health</span>
+              </div>
+              <div class="mt-5 flex gap-3">
+                <a href=" https://www.mmu.edu.my/intake/?utm_source=google&utm_medium=cpc&utm_campaign=octintake2025&utm_content=rsa_textad&gad_source=1&gad_campaignid=22867464685&gbraid=0AAAAApkiggVyXhDfSWUadelA3C0Nfvxx2&gclid=Cj0KCQjwwsrFBhD6ARIsAPnUFD3B5SO1fAHGBnuLGu6aXFL32V36Dq-ratMz7o4AkbKqusWD6MikC-4aAka_EALw_wcB" class="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-teal-500">Learn More</a>
+                <a href="https://www.unitar.my/admissions/?gclid=Cj0KCQjwwsrFBhD6ARIsAPnUFD3AunSvQDJHYAUhEJLsz3h5wrO3e8bEBLMdapGrEpUGPphlNzBjbLUaAnDvEALw_wcB&utm_campaign=22602536542&utm_content=754338000165&utm_medium=sem&utm_source=online&utm_term=university%20application+p" class="px-4 py-2 rounded-lg border text-sm font-medium text-blue-700 border-blue-200 hover:bg-blue-100">Apply</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="uni-card rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition" data-name="Technical University of Munich" data-country="Germany">
+            <div class="h-44 w-full overflow-hidden">
+              <img class="w-full h-full object-cover" loading="lazy" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80" alt="TUM campus" />
+            </div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold text-gray-900">Technical University of Munich</h3>
+              <p class="mt-1 text-sm text-gray-600 flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                Munich, Germany
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-medium">Computer Science</span>
+                <span class="px-2.5 py-1 rounded-full bg-amber-50 text-amber-700 text-xs font-medium">Mechanical Eng</span>
+              </div>
+              <div class="mt-5 flex gap-3">
+                <a href=" https://www.tum.de/en/" class="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-teal-500">Learn More</a>
+                <a href="https://www.tum.de/en/" class="px-4 py-2 rounded-lg border text-sm font-medium text-blue-700 border-blue-200 hover:bg-blue-100">Apply</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5-->
+          <article class="uni-card rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition" data-name="Stanford University" data-country="United States">
+            <div class="h-44 w-full overflow-hidden">
+              <img class="w-full h-full object-cover" loading="lazy" src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=1200&auto=format&fit=crop" alt="Stanford campus" />
+            </div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold text-gray-900">Stanford University</h3>
+              <p class="mt-1 text-sm text-gray-600 flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                California, United States
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-medium">AI</span>
+                <span class="px-2.5 py-1 rounded-full bg-pink-50 text-pink-700 text-xs font-medium">Biotech</span>
+              </div>
+              <div class="mt-5 flex gap-3">
+                <a href=" https://www.stanford.edu/?gad_source=1&gad_campaignid=21551067266&gbraid=0AAAAA-DWbZSiEGAlrG8ZQsLdDsziIPKEu&gclid=Cj0KCQjwwsrFBhD6ARIsAPnUFD1g2kxLIDg9tW-5Htjzbm8fOVaNsHwsOuJGLAEULffd_CzcUboY6rMaAvdmEALw_wcB" class="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-teal-500">Learn More</a>
+                <a href="https://www.stanford.edu/academics/" class="px-4 py-2 rounded-lg border text-sm font-medium text-blue-700 border-blue-200 hover:bg-blue-100">Apply</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="uni-card rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition" data-name="University of Oxford" data-country="United Kingdom">
+            <div class="h-44 w-full overflow-hidden">
+              <img class="w-full h-full object-cover" loading="lazy" src="https://images.unsplash.com/photo-1523580494863-6f3031224c94" alt="Oxford campus" />
+            </div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold text-gray-900">University of Oxford</h3>
+              <p class="mt-1 text-sm text-gray-600 flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                Oxford, United Kingdom
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-medium">Humanities</span>
+                <span class="px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-medium">Law</span>
+              </div>
+              <div class="mt-5 flex gap-3">
+                <a href=" https://oxfordmagictours.com/?gad_source=1&gad_campaignid=20400689196&gbraid=0AAAAAp8EMj24rGgeXTIUNy0OuxDmpA2nS&gclid=Cj0KCQjwwsrFBhD6ARIsAPnUFD2FDKsUvv0pxsO89YNWR1753dqnd8MZj21Spi3FKY_3U7CRYEi7OVMaAtmXEALw_wcB/" class="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-teal-500">Learn More</a>
+                <a href="https://oxfordmagictours.com/contact/" class="px-4 py-2 rounded-lg border text-sm font-medium text-blue-700 border-blue-200 hover:bg-blue-100">Apply</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 7 -->
+          <article class="uni-card rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition" data-name="University of Toronto" data-country="Canada">
+            <div class="h-44 w-full overflow-hidden">
+              <img class="w-full h-full object-cover" loading="lazy" src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1200&auto=format&fit=crop" alt="University of Toronto campus" />
+            </div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold text-gray-900">University of Toronto</h3>
+              <p class="mt-1 text-sm text-gray-600 flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                Toronto, Canada
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-full bg-rose-50 text-rose-700 text-xs font-medium">Medicine</span>
+                <span class="px-2.5 py-1 rounded-full bg-sky-50 text-sky-700 text-xs font-medium">Data Science</span>
+              </div>
+              <div class="mt-5 flex gap-3">
+                <a href=" https://www.utoronto.ca/" class="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-teal-500">Learn More</a>
+                <a href="https://www.utoronto.ca/current-students" class="px-4 py-2 rounded-lg border text-sm font-medium text-blue-700 border-blue-200 hover:bg-blue-100">Apply</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 8 -->
+          <article class="uni-card rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition" data-name="Delft University of Technology" data-country="Netherlands">
+            <div class="h-44 w-full overflow-hidden">
+              <img class="w-full h-full object-cover" loading="lazy" src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1200&auto=format&fit=crop" alt="TU Delft campus" />
+            </div>
+            <div class="p-5">
+              <h3 class="text-lg font-semibold text-gray-900">Delft University of Technology</h3>
+              <p class="mt-1 text-sm text-gray-600 flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
+                  <circle cx="12" cy="11" r="3" />
+                </svg>
+                Delft, Netherlands
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-full bg-lime-50 text-lime-700 text-xs font-medium">Aerospace</span>
+                <span class="px-2.5 py-1 rounded-full bg-fuchsia-50 text-fuchsia-700 text-xs font-medium">Architecture</span>
+              </div>
+              <div class="mt-5 flex gap-3">
+                <a href="https://www.kth.se/en/studies/?mtm_source=google&mtm_medium=cpc&mtm_campaign=Europe,%20Africa%20and%20Middle%20East%20(SEM,%20competitors)&mtm_content=Competitors&mtm_kwd=delft%20university%20of%20technology&gad_source=1&gad_campaignid=8882118679&gbraid=0AAAAACo8x20M71N4iKJ0jLeoozZ5qKRlo&gclid=Cj0KCQjwwsrFBhD6ARIsAPnUFD1PJfS7nli9exMyDoayK7xyDRVvImDTWtBfxkuGVFA7IuZCVwetoa0aAgFfEALw_wcB" class="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm font-medium hover:bg-teal-500">Learn More</a>
+                <a href="https://www.kth.se/en/studies/?mtm_source=google&mtm_medium=cpc&mtm_campaign=Europe,%20Africa%20and%20Middle%20East%20(SEM,%20competitors)&mtm_content=Competitors&mtm_kwd=delft%20university%20of%20technology&gad_source=1&gad_campaignid=8882118679&gbraid=0AAAAACo8x20M71N4iKJ0jLeoozZ5qKRlo&gclid=Cj0KCQjwwsrFBhD6ARIsAPnUFD1PJfS7nli9exMyDoayK7xyDRVvImDTWtBfxkuGVFA7IuZCVwetoa0aAgFfEALw_wcB" class="px-4 py-2 rounded-lg border text-sm font-medium text-blue-700 border-blue-200 hover:bg-blue-100">Apply</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- No results -->
+        <div id="noResults" class="hidden text-center text-gray-600 py-12">No universities match your search.</div>
+      </div>
+    </main>
+
+    <!-- Optional floating chat button -->
+    <button class="fixed bottom-6 right-6 hidden sm:inline-flex items-center justify-center w-14 h-14 rounded-full bg-blue-600 text-white shadow-lg hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-300">
+      <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M21 15a4 4 0 0 1-4 4H7l-4 4V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8z" />
+      </svg>
+      <span class="sr-only">Chat</span>
+    </button>
+    <div id="footer"></div>
+    <script loading="lazy" src="script.js"></script>
+    <script>
+      const form = document.getElementById("searchForm");
+      const query = document.getElementById("query");
+      const country = document.getElementById("country");
+      const cards = Array.from(document.querySelectorAll(".uni-card"));
+      const noResults = document.getElementById("noResults");
+
+      function filterCards() {
+        const q = query.value.trim().toLowerCase();
+        const c = country.value;
+
+        let visibleCount = 0;
+        cards.forEach(card => {
+          const name = card.dataset.name.toLowerCase();
+          const matchesName = name.includes(q);
+          const matchesCountry = c === "all" || card.dataset.country === c;
+
+          if (matchesName && matchesCountry) {
+            card.classList.remove("hidden");
+            visibleCount++;
+          } else {
+            card.classList.add("hidden");
+          }
+        });
+
+        noResults.classList.toggle("hidden", visibleCount !== 0);
+      }
+
+      form.addEventListener("submit", e => {
+        e.preventDefault();
+        filterCards();
+      });
+
+      query.addEventListener("input", filterCards);
+      country.addEventListener("change", filterCards);
+    </script>
   </body>
 </html>
