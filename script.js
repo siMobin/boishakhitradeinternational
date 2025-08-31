@@ -111,7 +111,7 @@ function openForm() {
   document.addEventListener("click", function closePopup(e) {
     if (!popup.contains(e.target) && !mainBtn.contains(e.target)) {
       closeForm();
-      document.removeEventListener("click", closePopup);
+      // document.removeEventListener("click", closePopup);
     } else {
       return;
     }

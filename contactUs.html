@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us | StudentAbroad</title>
     <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
   </head>
   <body class="bg-white min-h-screen flex flex-col">
     <div id="header"></div>
@@ -23,7 +24,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <!-- Form -->
           <div class="lg:col-span-2 bg-white border border-gray-200 rounded-2xl shadow-xl p-6">
-            <h2 class="text-2xl text-center font-bold text-orange-400">Send Us a Message</h2>
+            <h2 class="text-2xl text-center font-bold text-blue-600">Send Us a Message</h2>
 
             <form id="contactForm" class="mt-5 space-y-4" novalidate>
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -82,18 +83,12 @@
               </div>
 
               <div class="flex items-center gap-3 pt-1">
-                <button id="sendBtn" type="submit" class="inline-flex items-center justify-center gap-2 px-5 h-11 rounded-lg bg-orange-500 text-white font-medium hover:bg-blue-700 shadow">
-                  <svg id="btnSpinner" class="hidden w-5 h-5 animate-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="10" class="opacity-20"></circle>
-                    <path d="M12 2a10 10 0 0 1 10 10" class="opacity-80"></path>
-                  </svg>
+                <button id="sendBtn" type="submit" class="inline-flex items-center justify-center gap-2 px-5 h-11 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 shadow">
+                  <i class="fa-solid fa-paper-plane fa-rotate-270"></i>
                   <span>Send Message</span>
                 </button>
                 <a href="https://wa.me/601161175133" target="_blank" class="inline-flex items-center gap-2 px-4 h-11 rounded-lg border border-green-200 text-green-700 hover:bg-green-50">
-                  <svg class="w-5 h-5" viewBox="0 0 32 32" fill="currentColor">
-                    <path d="M19.11 17.04c-.3-.14-1.79-.88-2.07-.98-.28-.1-.48-.14-.68.14-.2.28-.78.98-.96 1.18-.18.2-.36.22-.66.08-.3-.14-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.6.13-.12.3-.3.45-.45.15-.15.2-.26.3-.44.1-.18.05-.34-.02-.48-.08-.14-.68-1.64-.93-2.26-.25-.6-.5-.52-.68-.53h-.58c-.2 0-.48.06-.73.34-.25.28-.96.94-.96 2.28 0 1.34.98 2.63 1.12 2.82.14.2 1.93 2.95 4.67 4.13.65.28 1.15.45 1.54.58.65.2 1.24.17 1.7.1.52-.08 1.79-.73 2.05-1.44.25-.72.25-1.33.17-1.46-.08-.12-.26-.2-.56-.34z" />
-                    <path d="M27.67 4.33C24.83 1.49 21.03 0 17 0 7.61 0 0 7.61 0 17c0 2.98.78 5.9 2.27 8.46L.02 31.98l6.67-2.18A16.91 16.91 0 0 0 17 34c9.39 0 17-7.61 17-17 0-4.03-1.49-7.83-4.33-10.67zM17 30.5c-2.87 0-5.65-.84-8.04-2.44l-.58-.37-3.96 1.3 1.32-3.86-.38-.6A13.44 13.44 0 0 1 3.5 17C3.5 9.04 9.04 3.5 17 3.5S30.5 9.04 30.5 17 24.96 30.5 17 30.5z" />
-                  </svg>
+                  <i class="fa-brands fa-whatsapp"></i>
                   WhatsApp
                 </a>
               </div>
@@ -105,10 +100,7 @@
             <!-- Offices -->
             <div class="rounded-2xl border border-gray-200 bg-white p-5">
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
-                  <circle cx="12" cy="11" r="3" />
-                </svg>
+                <i class="fa-solid fa-location-dot text-2xl text-blue-600"></i>
                 <div>
                   <p class="font-semibold text-gray-900">Bangladesh Office</p>
                   <p class="text-sm text-gray-600 mt-1">
@@ -118,16 +110,10 @@
                 </div>
               </div>
               <div class="mt-4 flex items-start gap-3">
-                <svg class="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
-                  <circle cx="12" cy="11" r="3" />
-                </svg>
+                <i class="fa-solid fa-location-dot text-2xl text-blue-600"></i>
                 <div>
                   <p class="font-semibold text-gray-900">Malaysia Office</p>
-                  <p class="text-sm text-gray-600 mt-1">
-                    Suite 32-01, 32nd Floor, Menara Keck Seng (Opposite Pavilion Mall) <br />
-                    203 Jalan Bukit Bintang, 55100 Kuala Lumpur, Malaysia
-                  </p>
+                  <p class="text-sm text-gray-600 mt-1">Putra Court, 20-1, Jalan Ipoh Kecil, 10B, Chow Kit, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur 50350, Malaysia</p>
                 </div>
               </div>
             </div>
@@ -135,9 +121,7 @@
             <!-- Phones -->
             <div class="rounded-2xl border border-gray-200 bg-white p-5">
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M22 16.9v2a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.6A2 2 0 0 1 4 1.1h2a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.5 2.1L7 8.8a16 16 0 0 0 6.2 6.2l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.7 2z" />
-                </svg>
+                <i class="fa-solid fa-phone text-2xl text-blue-600"></i>
                 <div class="w-full">
                   <p class="font-semibold text-gray-900">Phone</p>
                   <ul class="mt-1 text-sm text-gray-700 space-y-1">
@@ -165,15 +149,12 @@
             <!-- Email -->
             <div class="rounded-2xl border border-gray-200 bg-white p-5">
               <div class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M4 4h16a2 2 0 0 1 2 2v1l-10 6L2 7V6a2 2 0 0 1 2-2z" />
-                  <path d="M22 8l-10 6L2 8" />
-                </svg>
+                <i class="fa-solid fa-envelope text-2xl text-blue-600"></i>
                 <div class="w-full">
                   <p class="font-semibold text-gray-900">Email</p>
                   <div class="mt-1 flex items-center justify-between text-sm text-gray-700">
-                    <a class="hover:underline break-all" href="mailto:enquiry@nhglobaleducation.com">enquiry@nhglobaleducation.com</a>
-                    <button class="text-xs text-blue-600 hover:underline copy" data-copy="enquiry@nhglobaleducation.com">Copy</button>
+                    <a class="hover:underline break-all" href="mailto:info.boishakhitradeint@gmail.com">info.boishakhitradeint@gmail.com</a>
+                    <button class="text-xs text-blue-600 hover:underline copy" data-copy="info.boishakhitradeint@gmail.com">Copy</button>
                   </div>
                 </div>
               </div>

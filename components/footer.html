@@ -109,10 +109,7 @@
               <path d="M12 21s-7-5.5-7-10a7 7 0 1 1 14 0c0 4.5-7 10-7 10z" />
               <circle cx="12" cy="11" r="3" />
             </svg>
-            <address class="not-italic leading-relaxed">
-              Suite 32-01, 32nd Floor, Menara Keck Seng (Opposite Pavilion Mall) <br />
-              203 Jalan Bukit Bintang, 55100 Kuala Lumpur, Malaysia
-            </address>
+            <address class="not-italic leading-relaxed">Putra Court, 20-1, Jalan Ipoh Kecil, 10B, Chow Kit, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur 50350, Malaysia</address>
           </div>
 
           <div class="flex gap-3">
@@ -163,7 +160,7 @@
     display: none;
     position: fixed;
     bottom: 100px;
-    right: 15px;
+    /* right: 15px; */
     z-index: 9999;
   }
 
@@ -210,12 +207,12 @@
 </style>
 
 <!-- Optional floating chat button -->
-<button id="mainChatBtn" onclick="openForm()" class="chat-btn fixed bottom-6 right-4 bg-blue-600 text-white">
+<button id="mainChatBtn" onclick="openForm()" class="chat-btn fixed bottom-6 right-6 bg-blue-600 text-white">
   <i id="mainBtnIcon" class="fas fa-comments"></i>
 </button>
 
 <!-- Popup container -->
-<div class="chat-popup" id="myForm">
+<div class="chat-popup right-6" id="myForm">
   <div class="chat-buttons">
     <button class="chat-btn" style="background-color: #10b981" onclick="window.open('https://wa.me/8801789774070','_blank')">
       <i class="fas fa-comments text-white"></i>
