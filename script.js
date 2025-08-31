@@ -93,3 +93,47 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+function openForm() {
+  const popup = document.getElementById("myForm");
+  const mainBtn = document.getElementById("mainChatBtn");
+  const mainIcon = document.getElementById("mainBtnIcon");
+
+  // Change main button icon to X
+  mainIcon.classList.remove("fa-comments");
+  mainIcon.classList.add("fa-times");
+  mainBtn.style.backgroundColor = "#f8fafc";
+  mainBtn.style.color = "#1d4ed8";
+  mainBtn.style.border = "2px solid #1d4ed8";
+
+  popup.style.display = "block";
+
+  // Add click outside to close
+  document.addEventListener("click", function closePopup(e) {
+    if (!popup.contains(e.target) && !mainBtn.contains(e.target)) {
+      closeForm();
+      document.removeEventListener("click", closePopup);
+    } else {
+      return;
+    }
+  });
+}
+
+function closeForm() {
+  const popup = document.getElementById("myForm");
+  const mainBtn = document.getElementById("mainChatBtn");
+  const mainIcon = document.getElementById("mainBtnIcon");
+
+  // Change main button icon back to comments
+  mainIcon.classList.remove("fa-times");
+  mainIcon.classList.add("fa-comments");
+  mainBtn.style.backgroundColor = "#2563eb"; // blue-600
+  mainBtn.style.color = "white";
+  mainBtn.style.border = "none";
+
+  popup.style.display = "none";
+}
+
+// Prevent popup from closing when clicking inside it
+document.getElementById("myForm").addEventListener("click", function (e) {
+  e.stopPropagation();
+});

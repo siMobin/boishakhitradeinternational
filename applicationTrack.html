@@ -7,13 +7,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-white min-h-screen flex flex-col">
+    <div id="header"></div>
     <!-- Banner -->
-    <header class="bg-gradient-to-r from-teal-300 to-blue-600 text-white">
+    <div class="bg-[linear-gradient(90deg,_#002147_0%,_#003A7D_50%,_#002147_100%)] text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 text-center">
         <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold">Application Status Tracker</h1>
         <p class="mt-4 text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto">Check the status of your university application.</p>
       </div>
-    </header>
+    </div>
 
     <!-- Search Card -->
     <section class="max-w-3xl w-full mx-auto px-4 sm:px-6 lg:px-8 -mt-8">
@@ -29,9 +30,9 @@
         <!-- Mode tabs -->
         <div class="mt-4">
           <div class="inline-flex rounded-lg bg-gray-100 p-1" role="tablist" aria-label="Search mode">
-            <button class="tab-btn px-3 sm:px-4 py-2 rounded-md text-sm font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300 bg-white shadow" data-mode="passport" aria-selected="true">Passport No</button>
-            <button class="tab-btn px-3 sm:px-4 py-2 rounded-md text-sm font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300" data-mode="appId" aria-selected="false">Application ID</button>
-            <button class="tab-btn px-3 sm:px-4 py-2 rounded-md text-sm font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300" data-mode="email" aria-selected="false">Email</button>
+            <button disabled class="tab-btn px-3 sm:px-4 py-2 rounded-md text-sm font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300 bg-white shadow" data-mode="passport" aria-selected="true">Passport No</button>
+            <button disabled class="tab-btn px-3 sm:px-4 py-2 rounded-md text-sm font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300" data-mode="appId" aria-selected="false">Application ID</button>
+            <button disabled class="tab-btn px-3 sm:px-4 py-2 rounded-md text-sm font-medium text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-300" data-mode="email" aria-selected="false">Email</button>
           </div>
         </div>
 
@@ -45,7 +46,7 @@
                 <path d="M8 2v20M16 2v20M3 8h18M3 16h18"></path>
               </svg>
             </span>
-            <input id="trackInput" type="text" placeholder="Enter Passport Number (e.g., AB123456)" class="w-full h-12 pl-10 pr-32 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500" aria-describedby="helpText" autocomplete="off" />
+            <input id="trackInput" type="text" disabled placeholder="Enter Passport Number (e.g., AB123456)" class="w-full h-12 pl-10 pr-32 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500" aria-describedby="helpText" autocomplete="off" />
             <div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-2">
               <button type="button" id="pasteBtn" class="px-3 py-1.5 rounded-md text-sm text-gray-700 border border-gray-200 hover:bg-gray-50">Paste</button>
               <button type="submit" class="px-4 py-2 rounded-md bg-orange-600 text-white text-sm font-medium hover:bg-blue-700 shadow">Search</button>
@@ -214,91 +215,9 @@
     <div id="toast" class="pointer-events-none fixed inset-x-0 bottom-6 flex justify-center px-4 hidden">
       <div class="pointer-events-auto rounded-lg bg-gray-900 text-white px-4 py-2 shadow-lg text-sm" id="toastMsg">—</div>
     </div>
-
-    <script>
-      // Demo dataset
-      const STEPS = ["Submitted", "Documents Verified", "University Review", "Offer Letter", "Visa Processing", "Accommodation", "Pre-Departure"];
-
-      const DB = [
-        {
-          id: "MY-CU-2025-0001",
-          passport: "AB123456",
-          email: "aisha@example.com",
-          name: "Aisha Khan",
-          university: "City University Malaysia",
-          program: "BSc Computer Science",
-          country: "Malaysia",
-          step: 2, // 0-based
-          submitted: "2025-07-03",
-          updated: "2025-08-26",
-          counselor: { name: "Sara Khan", phone: "+60 11-6117 5133", email: "enquiry@nhglobaleducation" },
-        },
-        {
-          id: "CA-UT-2025-2345",
-          passport: "CD987654",
-          email: "maria@example.com",
-          name: "Maria Gomez",
-          university: "University of Toronto",
-          program: "MSc Data Science",
-          country: "Canada",
-          step: 3,
-          submitted: "2025-06-20",
-          updated: "2025-08-15",
-          counselor: { name: "David Lee", phone: "+1 416-555-0123", email: "advisor@utoronto.example" },
-        },
-        {
-          id: "DE-TUM-2025-0311",
-          passport: "EF445566",
-          email: "lukas@example.com",
-          name: "Lukas Meyer",
-          university: "Technical University of Munich",
-          program: "MSc Mechanical Engineering",
-          country: "Germany",
-          step: 1,
-          submitted: "2025-07-10",
-          updated: "2025-08-05",
-          counselor: { name: "Julia Schmidt", phone: "+49 89 555 0123", email: "counsel@tum.example" },
-        },
-        {
-          id: "MY-UM-2025-0099",
-          passport: "GH112233",
-          email: "nurul@example.com",
-          name: "Nurul Izzah",
-          university: "University of Malaya",
-          program: "BSc Public Health",
-          country: "Malaysia",
-          step: 0,
-          submitted: "2025-08-01",
-          updated: "2025-08-20",
-          counselor: { name: "Amin Rahman", phone: "+60 11-6178 5257", email: "umhelp@example.com" },
-        },
-      ];
-
-      // Elements
-      const modeButtons = document.querySelectorAll(".tab-btn");
-      const trackForm = document.getElementById("trackForm");
-      const trackInput = document.getElementById("trackInput");
-      const inputIcon = document.getElementById("inputIcon");
-      const pasteBtn = document.getElementById("pasteBtn");
-      const clearBtn = document.getElementById("clearBtn");
-      const clearRecentsBtn = document.getElementById("clearRecents");
-      const recentChips = document.getElementById("recentChips");
-
-      const loading = document.getElementById("loading");
-      const notFound = document.getElementById("notFound");
-      const resultSection = document.getElementById("resultSection");
-
-      const uniName = document.getElementById("uniName");
-      const programLine = document.getElementById("programLine");
-      const statusBadge = document.getElementById("statusBadge");
-      const appId = document.getElementById("appId");
-      const applicant = document.getElementById("applicant");
-      const countryLine = document.getElementById("countryLine");
-      const submittedOn = document.getElementById("submittedOn");
-      const updatedOn = document.getElementById("updatedOn");
-      const counselorLine = document.getElementById("counselorLine");
-      const timeline = document.getElementById("timeline");
-      const progressPct = document.getElementById("progressPct");
-    </script>
+    <br />
+    <br />
+    <div id="footer"></div>
+    <script src="script.js"></script>
   </body>
 </html>
