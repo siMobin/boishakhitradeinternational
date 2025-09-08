@@ -39,22 +39,22 @@ export default function AboutUs() {
 
                 <section className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3 lg:mx-24">
                     <div className="rounded-lg bg-gray-100 p-6 text-center">
-                        <h3 className="text-4xl font-bold">10k+</h3>
+                        <h3 className="text-4xl font-bold">100+</h3>
                         <p className="mt-2 text-gray-600">Applications Supported</p>
                     </div>
                     <div className="rounded-lg bg-gray-100 p-6 text-center">
-                        <h3 className="text-4xl font-bold">150+</h3>
+                        <h3 className="text-4xl font-bold">30+</h3>
                         <p className="mt-2 text-gray-600">Partner Universities</p>
                     </div>
                     <div className="rounded-lg bg-gray-100 p-6 text-center">
-                        <h3 className="text-4xl font-bold">20</h3>
+                        <h3 className="text-4xl font-bold">5</h3>
                         <p className="mt-2 text-gray-600">Expert Advisors</p>
                     </div>
                 </section>
 
                 <div className="mt-12 lg:mx-24 shadow-lg p-4 border border-gray-200 rounded-lg">
                     <h2 className="text-2xl font-bold">Our Story</h2>
-                    <p className="mt-4 text-gray-600">Founded by alumni of top global universities, Boishakhi Trade International was created to remove barriers and confusion from the study abroad process. Today, we help thousands of students every year connect with the right opportunities, fostering academic aspirations and cultural exchange.</p>
+                    <p className="mt-4 text-gray-600">Founded by Mizanur Rahman Jahid who is the proprietor of BOISHAKHI trade international & studies at the University Kuala Lumpur. Today, we help many students every year connect with the right opportunities, fostering academic aspirations and cultural exchange.</p>
                 </div>
             </div>
             <Footer />

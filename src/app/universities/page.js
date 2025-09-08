@@ -380,7 +380,7 @@ export default function Universities() {
 
             {/* Search Bar */}
             <section className="w-full">
-                <div className="max-w-5xl w-[50%] mx-auto px-4 sm:px-6 lg:px-8 -mt-8">
+                <div className="max-w-5xl w-full lg:w-[50%] mx-auto px-4 sm:px-6 lg:px-8 -mt-8">
                     <form onSubmit={handleSearchSubmit} className="bg-white rounded-xl shadow-lg p-3 sm:p-4 flex flex-col md:flex-row gap-3 items-stretch">
                         {/* Search input */}
                         <div className="relative flex-1">

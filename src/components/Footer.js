@@ -15,7 +15,7 @@ export default function Footer() {
 
     return (
         <footer className="bg-primary text-white">
-            <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-14 pb-10">
+            <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-14 pb-2">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {/* Brand + blurb + socials */}
                     <div className="space-y-6">
@@ -54,13 +54,13 @@ export default function Footer() {
                     {/* Services */}
                     <nav aria-label="Services" className="space-y-5">
                         <h3 className="text-orange-500 text-2xl font-semibold">Services</h3>
-                        <ul className="space-y-3 text-orange-500">
-                            <li><Link className="hover:text-white" href="/services">University Selection</Link></li>
-                            <li><Link className="hover:text-white" href="/services">Application Support</Link></li>
-                            <li><Link className="hover:text-white" href="/services">Visa Assistance</Link></li>
-                            <li><Link className="hover:text-white" href="/services">Accommodation</Link></li>
-                            <li><Link className="hover:text-white" href="/services">Pre-Departure</Link></li>
-                            <li><Link className="hover:text-white" href="/services">Post-Arrival Support</Link></li>
+                        <ul className="space-y-3 text--500">
+                            <li><Link className="hover:text-orange-500" href="/services">University Selection</Link></li>
+                            <li><Link className="hover:text-orange-500" href="/services">Application Support</Link></li>
+                            <li><Link className="hover:text-orange-500" href="/services">Visa Assistance</Link></li>
+                            <li><Link className="hover:text-orange-500" href="/services">Accommodation</Link></li>
+                            <li><Link className="hover:text-orange-500" href="/services">Pre-Departure</Link></li>
+                            <li><Link className="hover:text-orange-500" href="/services">Post-Arrival Support</Link></li>
                         </ul>
                     </nav>
 
@@ -84,7 +84,7 @@ export default function Footer() {
                                 <svg className="w-5 h-5 mt-1 shrink-0 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M22 16.9v2a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.6A2 2 0 0 1 4 1.1h2a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.5 2.1L7 8.8a16 16 0 0 0 6.2 6.2l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.7 2z" /></svg>
                                 <div className="space-y-1">
                                     <a className="hover:text-white" href="tel:+8801961656769">+880 1789-774070</a><br />
-                                    <a className="hover:text-white" href="tel:+8801618660577">+880 1618-660577</a>
+                                    <a className="hover:text-white" href="tel:+8801715740985">+8801715740985</a>
                                 </div>
                             </div>
 
@@ -105,7 +105,7 @@ export default function Footer() {
                                 Tuesday 9:00 AM - 5:00 PM <br />
                                 Wednesday 9:00 AM - 5:00 PM <br />
                                 Thursday 9:00 AM - 5:00 PM <br />
-                                Friday <span className="text-red-600 font-bold"> CLOSED </span> <br />
+                                Friday <span className="text-red-500 font-semibold"> Closed </span> <br />
                                 Saturday 9:00 AM - 5:00 PM <br />
                                 Sunday 9:00 AM - 5:00 PM
                             </p>
@@ -128,7 +128,7 @@ export default function Footer() {
                             <div className="flex gap-3">
                                 <svg className="w-5 h-5 mt-1 shrink-0 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M22 16.9v2a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.6A2 2 0 0 1 4 1.1h2a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.5 2.1L7 8.8a16 16 0 0 0 6.2 6.2l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.7 2z" /></svg>
                                 <div className="space-y-1">
-                                    <a className="hover:text-white" href="tel:+601161175133">+60 11-6117 5133</a><br />
+                                    {/* <a className="hover:text-white" href="tel:+601161175133">+60 11-6117 5133</a><br /> */}
                                     <a className="hover:text-white" href="tel:+601161785257">+60178658225</a>
                                 </div>
                             </div>
@@ -145,7 +145,12 @@ export default function Footer() {
 
                         <div>
                             <p className="text-orange-500 font-semibold">Office Hours</p>
-                            <p className="text-gray-100">Monday - Saturday: 10:00 AM - 6:00 PM</p>
+                            <p className="text-gray-100">Monday 10:00 AM - 6:00 PM</p>
+                            <p className="text-gray-100">Tuesday 10:00 AM - 6:00 PM</p>
+                            <p className="text-gray-100">Wednesday 10:00 AM - 6:00 PM</p>
+                            <p className="text-gray-100">Thursday 10:00 AM - 6:00 PM</p>
+                            <p className="text-gray-100">Friday <span className="text-red-500 font-semibold">Closed</span></p>
+                            <p className="text-gray-100">Saturday 10:00 AM - 6:00 PM</p>
                         </div>
                     </div>
                 </div>
@@ -154,12 +159,12 @@ export default function Footer() {
                 <div className="mt-12 border-t border-white/20"></div>
 
                 {/* Bottom bar */}
-                <div className="mt-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                <div className="mt-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                     <p className="text-sm">&copy; 2025 <a href="https://github.com/siMobin" className="font-semibold text-white">OkuSoft</a>. All rights reserved.</p>
-                    <nav className="text-sm space-x-6">
+                    <div className="text-xs space-x-6">
                         <a href="#" className="hover:text-white">Privacy Policy</a>
                         <a href="#" className="hover:text-white">Terms of Service</a>
-                    </nav>
+                    </div>
                 </div>
             </div>
 

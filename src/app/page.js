@@ -80,7 +80,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative m-4 rounded-2xl overflow-hidden">
-        <div className="swiper-container h-[calc(100vh-150px)]">
+        <div className="swiper-container h-[30vh] lg:h-[calc(100vh-150px)]">
           <div className="swiper-wrapper">
             <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
             <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/1708912/pexels-photo-1708912.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
@@ -94,7 +94,7 @@ export default function Home() {
       </section>
 
       {/* Popular Study Destinations Section */}
-      <section className="py-20">
+      <section className="md:py-10 pt-4">
         <div className="container px-4">
           <h2 className="text-4xl font-bold text-center text-gray-800">Popular Study Destinations</h2>
           <p className="text-center text-gray-600 mt-2 mb-12">Explore top destinations where thousands of students have built their futures.</p>

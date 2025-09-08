@@ -18,7 +18,9 @@ export default function Header() {
                         <p><i className="fa-solid fa-phone mr-1"></i> +8801789774070&nbsp;&nbsp;&nbsp;&nbsp;+60178658225</p>
                         <p className="hidden md:block">
                             <i className="fa-solid fa-envelope mr-1"></i>
-                            info.boishakhitradeint@gmail.com
+                            <a href="mailto:info.boishakhitradeint@gmail.com" className="hover:text-gray-300">
+                                info.boishakhitradeint@gmail.com
+                            </a>
                         </p>
                     </div>
                     <div className="flex items-center space-x-4">
@@ -37,13 +39,13 @@ export default function Header() {
                         </Link>
                     </div>
                     <div className="hidden lg:flex space-x-6 items-center font-medium">
-                        <Link href="/universities" className="text-gray-700 hover:text-blue-700">Universities</Link>
-                        <Link href="/services" className="text-gray-700 hover:text-blue-700">Services</Link>
-                        <Link href="/#reviews" className="text-gray-700 hover:text-blue-700">Success Stories</Link>
-                        <Link href="/student-essentials" className="text-gray-700 hover:text-blue-700">Student Essentials</Link>
-                        <Link href="/aboutus" className="text-gray-700 hover:text-blue-700">About Us</Link>
-                        <Link href="/team" className="text-gray-700 hover:text-blue-700">Our Team</Link>
-                        <Link href="/applicationTrack" className="text-gray-700 hover:text-blue-700">Track Application</Link>
+                        <Link href="/universities" className="text-gray-700 hover:text-orange-500">Universities</Link>
+                        <Link href="/services" className="text-gray-700 hover:text-orange-500">Services</Link>
+                        <Link href="/#reviews" className="text-gray-700 hover:text-orange-500">Success Stories</Link>
+                        <Link href="/student-essentials" className="text-gray-700 hover:text-orange-500">Student Essentials</Link>
+                        <Link href="/aboutus" className="text-gray-700 hover:text-orange-500">About Us</Link>
+                        <Link href="/team" className="text-gray-700 hover:text-orange-500">Our Team</Link>
+                        <Link href="/applicationTrack" className="text-gray-700 hover:text-orange-500">Track Application</Link>
                     </div>
                     <div>
                         <Link href="/contactUs" className="bg-[linear-gradient(90deg,_#002147_0%,_#003A7D_30%)] hover:bg-[linear-gradient(90deg,_#002147_0%,_#003A7D_100%)] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-800">Contact Us</Link>

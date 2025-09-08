@@ -30,7 +30,7 @@ export default function Team() {
                                 Proprietor of SAGOR TOURS & TRAVELS
                             </p>
                         </div>
-                        <div className="border-t px-6 py-3 flex items-center justify-center gap-4 text-gray-500">
+                        <div className="border-t border-gray-200 px-6 py-3 flex items-center justify-center gap-4 text-gray-500">
                             <a href="https://wa.me/+" target="_blank" aria-label="WhatsApp" className="hover:text-green-600">
                                 <i className="fa-brands fa-whatsapp"></i>
                             </a>
@@ -46,9 +46,9 @@ export default function Team() {
                                 <img src="/images/MIZANUR-RAHMAN-JAHID.png" alt="Profile photo" className="h-full w-full object-cover" />
                             </div>
                             <h3 className="mt-4 text-base font-semibold text-gray-900">Mizanur Rahman Jahid</h3>
-                            <p className="text-sm text-blue-700">Chairman of BOISHAKHI TRADE INTERNATIONAL</p>
+                            <p className="text-sm text-blue-700">CEO & Founder of BOISHAKHI TRADE INTERNATIONAL</p>
                         </div>
-                        <div className="border-t px-6 py-3 flex items-center justify-center gap-4 text-gray-500">
+                        <div className="border-t border-gray-200 px-6 py-3 flex items-center justify-center gap-4 text-gray-500">
                             <a href="https://wa.me/+8801789774070" target="_blank" aria-label="WhatsApp" className="hover:text-green-600">
                                 <i className="fa-brands fa-whatsapp"></i>
                             </a>
@@ -69,7 +69,7 @@ export default function Team() {
                             <h3 className="mt-4 text-base font-semibold text-gray-900">Mahmudul Hasan Himon</h3>
                             <p className="text-sm text-blue-700">Chief Operating Officer</p>
                         </div>
-                        <div className="border-t px-6 py-3 flex items-center justify-center gap-4 text-gray-500">
+                        <div className="border-t border-gray-200 px-6 py-3 flex items-center justify-center gap-4 text-gray-500">
                             <a href="https://wa.me/+60195223728" target="_blank" aria-label="WhatsApp" className="hover:text-green-600">
                                 <i className="fa-brands fa-whatsapp"></i>
                             </a>
@@ -86,9 +86,9 @@ export default function Team() {
                                 <img src="/images/BADRUL-HASAN-BABU.png" alt="Profile photo" className="h-full w-full object-cover" />
                             </div>
                             <h3 className="mt-4 text-base font-semibold text-gray-900">Badrul Hasan Babu</h3>
-                            <p className="text-sm text-blue-700">Chief Executive Officer</p>
+                            <p className="text-sm text-blue-700">Senior Executive Officer</p>
                         </div>
-                        <div className="border-t px-6 py-3 flex items-center justify-center gap-4 text-gray-500">
+                        <div className="border-t border-gray-200 px-6 py-3 flex items-center justify-center gap-4 text-gray-500">
                             <a href="https://wa.me/+8801715740985" target="_blank" aria-label="WhatsApp" className="hover:text-green-600">
                                 <i className="fa-brands fa-whatsapp"></i>
                             </a>
@@ -107,7 +107,7 @@ export default function Team() {
                             <h3 className="mt-4 text-base font-semibold text-gray-900">Kamrun Nahar Munni</h3>
                             <p className="text-sm text-blue-700">Counsellor</p>
                         </div>
-                        <div className="border-t px-6 py-3 flex items-center justify-center gap-4 text-gray-500">
+                        <div className="border-t border-gray-200 px-6 py-3 flex items-center justify-center gap-4 text-gray-500">
                             <a href="https://wa.me/+8801837258235" target="_blank" aria-label="WhatsApp" className="hover:text-green-600">
                                 <i className="fa-brands fa-whatsapp"></i>
                             </a>
