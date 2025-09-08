@@ -217,8 +217,9 @@ export default function ContactUs() {
                                     <div>
                                         <p className="font-semibold text-gray-900">Bangladesh Office</p>
                                         <address className="not-italic leading-relaxed">
-                                            Darus-Salam Arcade, 6th Floor (5th lift) <br />
-                                            14 Purana Paltan, Dhaka 1000, Bangladesh
+                                            50 DIT EXT. ROAD , ROOM NO #2, EASTERN VIEW BUILDING,
+                                            <br />
+                                            NAYAPALTAN, Dhaka, Bangladesh
                                         </address>
                                     </div>
                                 </div>
@@ -239,20 +240,20 @@ export default function ContactUs() {
                                         <p className="font-semibold text-gray-900">Phone</p>
                                         <ul className="mt-1 text-sm text-gray-700 space-y-1">
                                             <li className="flex items-center justify-between">
-                                                <a className="hover:underline" href="tel:+8801961656769">+880 1961-656769 (Bangladesh)</a>
-                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+8801961656769")}>Copy</button>
+                                                <a className="hover:underline" href="tel:+8801789774070">+8801789774070 (Bangladesh)</a>
+                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+8801789774070")}>Copy</button>
                                             </li>
                                             <li className="flex items-center justify-between">
-                                                <a className="hover:underline" href="tel:+8801618660577">+880 1618-660577</a>
-                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+8801618660577")}>Copy</button>
+                                                <a className="hover:underline" href="tel:+880 1837258235">+880 1837258235</a>
+                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+880 1837258235")}>Copy</button>
                                             </li>
                                             <li className="flex items-center justify-between">
-                                                <a className="hover:underline" href="tel:+601161175133">+60 11-6117 5133 (Malaysia)</a>
-                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+601161175133")}>Copy</button>
+                                                <a className="hover:underline" href="tel:+60178658225">+60178658225 (Malaysia)</a>
+                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+60178658225")}>Copy</button>
                                             </li>
                                             <li className="flex items-center justify-between">
-                                                <a className="hover:underline" href="tel:+601161785257">+60 11-6178 5257</a>
-                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+601161785257")}>Copy</button>
+                                                <a className="hover:underline" href="tel:+8801715740985">+8801715740985</a>
+                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+8801715740985")}>Copy</button>
                                             </li>
                                         </ul>
                                     </div>
@@ -268,6 +269,11 @@ export default function ContactUs() {
                                         <div className="mt-1 flex items-center justify-between text-sm text-gray-700">
                                             <a className="hover:underline break-all" href="mailto:info.boishakhitradeint@gmail.com">info.boishakhitradeint@gmail.com</a>
                                             <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("info.boishakhitradeint@gmail.com")}>Copy</button>
+                                        </div>
+
+                                        <div className="mt-1 flex items-center justify-between text-sm text-gray-700">
+                                            <a className="hover:underline break-all" href="mailto:btint.bd135@gmail.com">btint.bd135@gmail.com</a>
+                                            <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("btint.bd135@gmail.com")}>Copy</button>
                                         </div>
                                     </div>
                                 </div>
