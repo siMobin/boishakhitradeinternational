@@ -18,8 +18,8 @@ export default function Header() {
                         <p><i className="fa-solid fa-phone mr-1"></i> +8801789774070&nbsp;&nbsp;&nbsp;&nbsp;+60178658225</p>
                         <p className="hidden md:block">
                             <i className="fa-solid fa-envelope mr-1"></i>
-                            <a href="mailto:info.boishakhitradeint@gmail.com" className="hover:text-gray-300">
-                                info.boishakhitradeint@gmail.com
+                            <a href="mailto:info@boishakhitradeint.com" className="hover:text-gray-300">
+                                info@boishakhitradeint.com
                             </a>
                         </p>
                     </div>
@@ -31,11 +31,11 @@ export default function Header() {
             </div>
 
             {/* Main navigation */}
-            <nav className="container mx-auto px-4 py-3">
+            <nav className="container mx-auto px-4 py-2">
                 <div className="flex justify-between items-center lg:mx-24">
                     <div>
                         <Link href="/" className="">
-                            <img src="/images/logo.png" alt="" className="h-12" loading="lazy" />
+                            <img src="/images/logo.png" alt="" className="h-8 lg:h-12" loading="lazy" />
                         </Link>
                     </div>
                     <div className="hidden lg:flex space-x-6 items-center font-medium">
@@ -47,8 +47,8 @@ export default function Header() {
                         <Link href="/team" className="text-gray-700 hover:text-orange-500">Our Team</Link>
                         <Link href="/applicationTrack" className="text-gray-700 hover:text-orange-500">Track Application</Link>
                     </div>
-                    <div>
-                        <Link href="/contactUs" className="bg-[linear-gradient(90deg,_#002147_0%,_#003A7D_30%)] hover:bg-[linear-gradient(90deg,_#002147_0%,_#003A7D_100%)] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-800">Contact Us</Link>
+                    <div className=''>
+                        <Link href="/contactUs" className="bg-[linear-gradient(90deg,_#002147_0%,_#003A7D_30%)] hover:bg-[linear-gradient(90deg,_#002147_0%,_#003A7D_100%)] text-white px-2 lg:px-4 py-2 rounded-lg text-sm lg:font-semibold hover:bg-blue-800">Contact Us</Link>
                     </div>
                     <div className="lg:hidden">
                         <button id="menu-btn" className="text-gray-700 focus:outline-none" onClick={toggleMobileMenu}>

@@ -130,7 +130,7 @@ export default function ContactUs() {
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                         {/* Form */}
                         <div className="lg:col-span-2 bg-white border border-gray-200 rounded-2xl shadow-xl p-6">
-                            <h2 className="text-2xl text-center font-bold text-blue-600">Send Us a Message</h2>
+                            <h2 className="text-2xl text-center font-bold text-orange-500">Send Us a Message</h2>
 
                             <form onSubmit={handleSubmit} className="mt-5 space-y-4" noValidate>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -181,15 +181,15 @@ export default function ContactUs() {
                                 </div>
 
                                 <div className="flex items-center gap-2">
-                                    <input id="consent" name="consent" type="checkbox" checked={formData.consent} onChange={handleChange} className="h-4 w-4 rounded border-orange-300 text-blue-600 focus:ring-blue-500" />
+                                    <input id="consent" name="consent" type="checkbox" checked={formData.consent} onChange={handleChange} className="h-4 w-4 rounded border-orange-300 text-orange-500 focus:ring-blue-500" />
                                     <label htmlFor="consent" className="text-sm text-gray-700">
-                                        I agree to the
-                                        <a href="#" className="text-blue-600 underline">Privacy Policy</a>
+                                        I agree to the &nbsp;
+                                        <a href="#" className="text-blue-500 underline">Privacy Policy</a>
                                     </label>
                                 </div>
 
                                 <div className="flex items-center gap-3 pt-1">
-                                    <button id="sendBtn" type="submit" disabled={isSending} className="inline-flex items-center justify-center gap-2 px-5 h-11 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 shadow">
+                                    <button id="sendBtn" type="submit" disabled={isSending} className="button primary flex gap-2 items-center justify-center px-4 h-10">
                                         {isSending ? (
                                             <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                                                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
@@ -200,7 +200,7 @@ export default function ContactUs() {
                                         )}
                                         <span>{isSending ? "Sending..." : "Send Message"}</span>
                                     </button>
-                                    <a href="https://wa.me/601161175133" target="_blank" className="inline-flex items-center gap-2 px-4 h-11 rounded-lg border border-green-200 text-green-700 hover:bg-green-50">
+                                    <a href="https://wa.me/601161175133" target="_blank" className="inline-flex items-center gap-2 px-4 h-10 rounded-lg border border-green-200 text-green-700 hover:bg-green-50">
                                         <i className="fa-brands fa-whatsapp"></i>
                                         WhatsApp
                                     </a>
@@ -213,7 +213,7 @@ export default function ContactUs() {
                             {/* Offices */}
                             <div className="rounded-2xl border border-gray-200 bg-white p-5">
                                 <div className="flex items-start gap-3">
-                                    <i className="fa-solid fa-location-dot text-2xl text-blue-600"></i>
+                                    <i className="fa-solid fa-location-dot text-2xl text-orange-500"></i>
                                     <div>
                                         <p className="font-semibold text-gray-900">Bangladesh Office</p>
                                         <address className="not-italic leading-relaxed">
@@ -224,7 +224,7 @@ export default function ContactUs() {
                                     </div>
                                 </div>
                                 <div className="mt-4 flex items-start gap-3">
-                                    <i className="fa-solid fa-location-dot text-2xl text-blue-600"></i>
+                                    <i className="fa-solid fa-location-dot text-2xl text-orange-500"></i>
                                     <div>
                                         <p className="font-semibold text-gray-900">Malaysia Office</p>
                                         <address className="not-italic leading-relaxed">Putra Court, 20-1, Jalan Ipoh Kecil, 10B, Chow Kit, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur 50350, Malaysia</address>
@@ -235,25 +235,25 @@ export default function ContactUs() {
                             {/* Phones */}
                             <div className="rounded-2xl border border-gray-200 bg-white p-5">
                                 <div className="flex items-start gap-3">
-                                    <i className="fa-solid fa-phone text-2xl text-blue-600"></i>
+                                    <i className="fa-solid fa-phone text-2xl text-orange-500"></i>
                                     <div className="w-full">
                                         <p className="font-semibold text-gray-900">Phone</p>
                                         <ul className="mt-1 text-sm text-gray-700 space-y-1">
                                             <li className="flex items-center justify-between">
                                                 <a className="hover:underline" href="tel:+8801789774070">+8801789774070 (Bangladesh)</a>
-                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+8801789774070")}>Copy</button>
+                                                <button type="button" className="text-xs text-orange-500 hover:underline copy" onClick={() => handleCopy("+8801789774070")}>Copy</button>
                                             </li>
                                             <li className="flex items-center justify-between">
                                                 <a className="hover:underline" href="tel:+880 1837258235">+880 1837258235</a>
-                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+880 1837258235")}>Copy</button>
+                                                <button type="button" className="text-xs text-orange-500 hover:underline copy" onClick={() => handleCopy("+880 1837258235")}>Copy</button>
                                             </li>
                                             <li className="flex items-center justify-between">
                                                 <a className="hover:underline" href="tel:+60178658225">+60178658225 (Malaysia)</a>
-                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+60178658225")}>Copy</button>
+                                                <button type="button" className="text-xs text-orange-500 hover:underline copy" onClick={() => handleCopy("+60178658225")}>Copy</button>
                                             </li>
                                             <li className="flex items-center justify-between">
                                                 <a className="hover:underline" href="tel:+8801715740985">+8801715740985</a>
-                                                <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("+8801715740985")}>Copy</button>
+                                                <button type="button" className="text-xs text-orange-500 hover:underline copy" onClick={() => handleCopy("+8801715740985")}>Copy</button>
                                             </li>
                                         </ul>
                                     </div>
@@ -263,17 +263,17 @@ export default function ContactUs() {
                             {/* Email */}
                             <div className="rounded-2xl border border-gray-200 bg-white p-5">
                                 <div className="flex items-start gap-3">
-                                    <i className="fa-solid fa-envelope text-2xl text-blue-600"></i>
+                                    <i className="fa-solid fa-envelope text-2xl text-orange-500"></i>
                                     <div className="w-full">
                                         <p className="font-semibold text-gray-900">Email</p>
                                         <div className="mt-1 flex items-center justify-between text-sm text-gray-700">
-                                            <a className="hover:underline break-all" href="mailto:info.boishakhitradeint@gmail.com">info.boishakhitradeint@gmail.com</a>
-                                            <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("info.boishakhitradeint@gmail.com")}>Copy</button>
+                                            <a className="hover:underline break-all" href="mailto:info@boishakhitradeint.com">info@boishakhitradeint.com</a>
+                                            <button type="button" className="text-xs text-orange-500 hover:underline copy" onClick={() => handleCopy("info@boishakhitradeint.com")}>Copy</button>
                                         </div>
 
                                         <div className="mt-1 flex items-center justify-between text-sm text-gray-700">
                                             <a className="hover:underline break-all" href="mailto:btint.bd135@gmail.com">btint.bd135@gmail.com</a>
-                                            <button type="button" className="text-xs text-blue-600 hover:underline copy" onClick={() => handleCopy("btint.bd135@gmail.com")}>Copy</button>
+                                            <button type="button" className="text-xs text-orange-500 hover:underline copy" onClick={() => handleCopy("btint.bd135@gmail.com")}>Copy</button>
                                         </div>
                                     </div>
                                 </div>

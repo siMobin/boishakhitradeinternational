@@ -15,7 +15,7 @@ export default function Footer() {
 
     return (
         <footer className="bg-primary text-white">
-            <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-14 pb-2">
+            <div className="max-w-7xl mx-auto px-2 lg:px-4 pt-8 pb-2">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {/* Brand + blurb + socials */}
                     <div className="space-y-6">
@@ -94,7 +94,7 @@ export default function Footer() {
                                     <path d="M22 8l-10 6L2 8" />
                                     <path d="M2 8v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8" />
                                 </svg>
-                                <a className="hover:text-white break-all" href="mailto:enquiry@nhglobaleducation">btint.bd135@gmail.com</a>
+                                <a className="hover:text-white break-all" href="mailto:btint.bd135@gmail.com">btint.bd135@gmail.com</a>
                             </div>
                         </div>
 
@@ -139,7 +139,7 @@ export default function Footer() {
                                     <path d="M22 8l-10 6L2 8" />
                                     <path d="M2 8v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8" />
                                 </svg>
-                                <a className="hover:text-white break-all" href="mailto:enquiry@nhglobaleducation">btint.bd135@gmail.com</a>
+                                <a className="hover:text-white break-all" href="mailto:btint.bd135@gmail.com">btint.bd135@gmail.com</a>
                             </div>
                         </div>
 
@@ -149,8 +149,9 @@ export default function Footer() {
                             <p className="text-gray-100">Tuesday 10:00 AM - 6:00 PM</p>
                             <p className="text-gray-100">Wednesday 10:00 AM - 6:00 PM</p>
                             <p className="text-gray-100">Thursday 10:00 AM - 6:00 PM</p>
-                            <p className="text-gray-100">Friday <span className="text-red-500 font-semibold">Closed</span></p>
-                            <p className="text-gray-100">Saturday 10:00 AM - 6:00 PM</p>
+                            <p className="text-gray-100">Friday 10:00 AM - 6:00 PM</p>
+                            <p className="text-gray-100">Saturday <span className="text-red-500 font-semibold">Closed</span></p>
+                            <p className="text-gray-100">Sunday <span className="text-red-500 font-semibold">Closed</span></p>
                         </div>
                     </div>
                 </div>

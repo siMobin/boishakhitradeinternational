@@ -79,7 +79,7 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative m-4 rounded-2xl overflow-hidden">
+      <section className="relative m-4 rounded-2xl overflow-hidden shadow-lg">
         <div className="swiper-container h-[30vh] lg:h-[calc(100vh-150px)]">
           <div className="swiper-wrapper">
             <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
@@ -165,14 +165,14 @@ export default function Home() {
       </section>
 
       {/* Success Stories Section */}
-      <section className="py-20 max-w-[100vw]" id="reviews">
+      <section className="py-8 max-w-[100vw]" id="reviews">
         <h2 className="text-4xl font-bold text-center text-gray-800">Success Stories from Our Students</h2>
         <p className="text-center text-gray-600 mt-2 mb-12">Join thousands of successful students who have achieved their study abroad dreams.</p>
 
         <div className="pb-12 flex flex-wrap md:flex-nowrap justify-center gap-8 max-w-[100vw] md:mx-24">
           <div className="shadow-lg border border-gray-200/50 rounded-xl">
             <div className="bg-gray-100 p-8 rounded-lg">
-              <p className="text-gray-600 italic">&quot;Nhglobaleducation made my dream of studying at Cambridge a reality. Their guidance through the application process was invaluable, and the visa support was exceptional.&quot;</p>
+              <p className="text-gray-600 italic">&quot;Boishakhiti Trade International made my dream of studying at Cambridge a reality. Their guidance through the application process was invaluable, and the visa support was exceptional.&quot;</p>
               <div className="flex items-center mt-6">
                 <img src="https://ui-avatars.com/api/?name=Sarah+Chen&background=1E88E5&color=fff" alt="Sarah Chen" className="w-12 h-12 rounded-full" />
                 <div className="ml-4">

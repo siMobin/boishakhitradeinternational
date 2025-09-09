@@ -18,14 +18,14 @@ export default function Team() {
             <section className="px-4 sm:px-6 lg:px-8 -mt-6 pb-12 flex justify-center items-center">
                 <div className="grid justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                     {/* Member */}
-                    <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition">
+                    <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between">
                         <div className="p-6 text-center flex flex-col items-center">
                             <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-white shadow-md">
                                 <img src="/images/MATIUR-RAHMAN-SAGOR.png" alt="Profile photo" className="h-full w-full object-cover" />
                             </div>
                             <h3 className="mt-4 text-base font-semibold text-gray-900">Matiur Rahman Sagor</h3>
                             <p className="text-sm text-blue-700">
-                                Advisor of BOISHAKHI TRADE INTERNATION <br />
+                                Advisor of BOISHAKHI TRADE INTERNATIONAL <br />
                                 & <br />
                                 Proprietor of SAGOR TOURS & TRAVELS
                             </p>
@@ -40,7 +40,7 @@ export default function Team() {
                         </div>
                     </article>
                     {/* Member */}
-                    <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition">
+                    <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between">
                         <div className="p-6 text-center flex flex-col items-center">
                             <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-white shadow-md">
                                 <img src="/images/MIZANUR-RAHMAN-JAHID.png" alt="Profile photo" className="h-full w-full object-cover" />
@@ -61,7 +61,7 @@ export default function Team() {
                         </div>
                     </article>
                     {/* Member */}
-                    <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition">
+                    <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between">
                         <div className="p-6 text-center flex flex-col items-center">
                             <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-white shadow-md">
                                 <img src="/images/Mahmudul-Hasan-Himon.png" alt="Profile photo" className="h-full w-full object-cover" />
@@ -80,7 +80,7 @@ export default function Team() {
                     </article>
 
                     {/* Member */}
-                    <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition">
+                    <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between">
                         <div className="p-6 text-center flex flex-col items-center">
                             <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-white shadow-md">
                                 <img src="/images/BADRUL-HASAN-BABU.png" alt="Profile photo" className="h-full w-full object-cover" />
@@ -99,7 +99,7 @@ export default function Team() {
                     </article>
 
                     {/* Member */}
-                    <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition">
+                    <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between">
                         <div className="p-6 text-center flex flex-col items-center">
                             <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-white shadow-md">
                                 <img src="/images/KAMRUN-NAHAR-MUNNI.png" alt="Profile photo" className="h-full w-full object-cover" />

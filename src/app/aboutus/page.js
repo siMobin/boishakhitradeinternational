@@ -54,7 +54,7 @@ export default function AboutUs() {
 
                 <div className="mt-12 lg:mx-24 shadow-lg p-4 border border-gray-200 rounded-lg">
                     <h2 className="text-2xl font-bold">Our Story</h2>
-                    <p className="mt-4 text-gray-600">Founded by Mizanur Rahman Jahid who is the proprietor of BOISHAKHI trade international & studies at the University Kuala Lumpur. Today, we help many students every year connect with the right opportunities, fostering academic aspirations and cultural exchange.</p>
+                    <p className="mt-4 text-gray-600">Founded by <strong>Mizanur Rahman Jahid</strong> who is the proprietor of <strong>Boishakhi Trade International</strong> & studies at the University Kuala Lumpur. Today, we help many students every year connect with the right opportunities, fostering academic aspirations and cultural exchange.</p>
                 </div>
             </div>
             <Footer />
