@@ -19,11 +19,12 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {/* Brand + blurb + socials */}
                     <div className="space-y-6">
-                        <div className="flex items-center gap-3">
-                            <img src="/images/logo.webp" alt="" className="h-20" />
+                        <div className="flex items-center gap-2">
+                            <img src="/images/icon.webp" alt="" className="h-16 lg:h-16" loading="lazy" />
+                            <img src="/images/logo-xl.webp" alt="" className="h-18 [clip-path:inset(2px)]" />
                         </div>
 
-                        <p className="text-orange-50 leading-relaxed">Your trusted partner for international education. We&apos;ve been helping students achieve their global education dreams for over a decade.</p>
+                        <p className="text-orange-50 leading-relaxed">For over a decade, we have been a trusted partner in international education, helping students fulfill their dreams of studying abroad with guidance and dedicated support.</p>
 
                         <div className="flex items-center gap-6 text-gray-300 text-xl">
                             <a href="https://www.facebook.com/share/16Wca9TeeA/?mibextid=wwXIfr" target="_blank" className="hover:text-white" aria-label="Facebook">

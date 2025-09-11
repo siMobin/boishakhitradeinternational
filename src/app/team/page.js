@@ -20,8 +20,8 @@ export default function Team() {
                     {/* Member */}
                     <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between">
                         <div className="p-6 text-center flex flex-col items-center">
-                            <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-white shadow-md">
-                                <img src="/images/MATIUR-RAHMAN-SAGOR.png" alt="Profile photo" className="h-full w-full object-cover" />
+                            <div className="h-28 w-28 rounded-full overflow-hidden ring-2 ring-orange-100 shadow-md">
+                                <img src="/images/MATIUR-RAHMAN-SAGOR.webp" alt="Profile photo" loading='lazy' className="h-full w-full object-cover" />
                             </div>
                             <h3 className="mt-4 text-base font-semibold text-gray-900">Matiur Rahman Sagor</h3>
                             <p className="text-sm text-blue-700">
@@ -42,8 +42,8 @@ export default function Team() {
                     {/* Member */}
                     <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between">
                         <div className="p-6 text-center flex flex-col items-center">
-                            <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-white shadow-md">
-                                <img src="/images/MIZANUR-RAHMAN-JAHID.png" alt="Profile photo" className="h-full w-full object-cover" />
+                            <div className="h-28 w-28 rounded-full overflow-hidden ring-2 ring-orange-100 shadow-md">
+                                <img src="/images/MIZANUR-RAHMAN-JAHID.webp" loading='lazy' alt="Profile photo" className="h-full w-full object-cover" />
                             </div>
                             <h3 className="mt-4 text-base font-semibold text-gray-900">Mizanur Rahman Jahid</h3>
                             <p className="text-sm text-blue-700">CEO & Founder of BOISHAKHI TRADE INTERNATIONAL</p>
@@ -63,8 +63,8 @@ export default function Team() {
                     {/* Member */}
                     <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between">
                         <div className="p-6 text-center flex flex-col items-center">
-                            <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-white shadow-md">
-                                <img src="/images/Mahmudul-Hasan-Himon.png" alt="Profile photo" className="h-full w-full object-cover" />
+                            <div className="h-28 w-28 rounded-full overflow-hidden ring-2 ring-orange-100 shadow-md">
+                                <img src="/images/Mahmudul-Hasan-Himon.webp" loading='lazy' alt="Profile photo" className="h-full w-full object-cover" />
                             </div>
                             <h3 className="mt-4 text-base font-semibold text-gray-900">Mahmudul Hasan Himon</h3>
                             <p className="text-sm text-blue-700">Chief Operating Officer</p>
@@ -82,8 +82,8 @@ export default function Team() {
                     {/* Member */}
                     <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between">
                         <div className="p-6 text-center flex flex-col items-center">
-                            <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-white shadow-md">
-                                <img src="/images/BADRUL-HASAN-BABU.png" alt="Profile photo" className="h-full w-full object-cover" />
+                            <div className="h-28 w-28 rounded-full overflow-hidden ring-2 ring-orange-100 shadow-md">
+                                <img src="/images/BADRUL-HASAN-BABU.webp" loading='lazy' alt="Profile photo" className="h-full w-full object-cover" />
                             </div>
                             <h3 className="mt-4 text-base font-semibold text-gray-900">Badrul Hasan Babu</h3>
                             <p className="text-sm text-blue-700">Senior Executive Officer</p>
@@ -101,8 +101,8 @@ export default function Team() {
                     {/* Member */}
                     <article className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between">
                         <div className="p-6 text-center flex flex-col items-center">
-                            <div className="h-28 w-28 rounded-full overflow-hidden ring-4 ring-white shadow-md">
-                                <img src="/images/KAMRUN-NAHAR-MUNNI.png" alt="Profile photo" className="h-full w-full object-cover" />
+                            <div className="h-28 w-28 rounded-full overflow-hidden ring-2 ring-orange-100 shadow-md">
+                                <img src="/images/KAMRUN-NAHAR-MUNNI.webp" loading='lazy' alt="Profile photo" className="h-full w-full object-cover" />
                             </div>
                             <h3 className="mt-4 text-base font-semibold text-gray-900">Kamrun Nahar Munni</h3>
                             <p className="text-sm text-blue-700">Counsellor</p>

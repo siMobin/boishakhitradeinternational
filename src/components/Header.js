@@ -35,8 +35,9 @@ export default function Header() {
             <nav className="container mx-auto px-4 py-2">
                 <div className="flex justify-between items-center lg:mx-24">
                     <div>
-                        <Link href="/" className="">
+                        <Link href="/" className="flex items-center gap-2">
                             <img src="/images/icon.webp" alt="" className="h-8 lg:h-12" loading="lazy" />
+                            <img src="/images/logo-xl.webp" alt="" className="h-8 lg:h-12 [clip-path:inset(2px)]" loading="lazy" />
                         </Link>
                     </div>
                     <div className="hidden lg:flex space-x-6 items-center font-medium">
