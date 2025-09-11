@@ -24,6 +24,7 @@ export default function Header() {
                         </p>
                     </div>
                     <div className="flex items-center space-x-4">
+                        <a href="https://www.tiktok.com/@boishakhi.trade.i?_t=ZS-8zaFmOJuk9o&_r=1" target="_blank" className="hover:text-gray-300"><i className="fa-brands fa-tiktok"></i></a>
                         <a href="https://www.facebook.com/share/16Wca9TeeA/?mibextid=wwXIfr" target="_blank" className="hover:text-gray-300"><i className="fab fa-facebook-f"></i></a>
                         <a href="https://youtube.com/@rtbrvlogs2295?si=cI-bNgJQZQk8KgvA" target="_blank" className="hover:text-gray-300"><i className="fab fa-youtube"></i></a>
                     </div>
@@ -35,7 +36,7 @@ export default function Header() {
                 <div className="flex justify-between items-center lg:mx-24">
                     <div>
                         <Link href="/" className="">
-                            <img src="/images/logo.png" alt="" className="h-8 lg:h-12" loading="lazy" />
+                            <img src="/images/icon.webp" alt="" className="h-8 lg:h-12" loading="lazy" />
                         </Link>
                     </div>
                     <div className="hidden lg:flex space-x-6 items-center font-medium">

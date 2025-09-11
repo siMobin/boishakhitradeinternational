@@ -9,6 +9,22 @@
   background-image: linear-gradient(90deg, #002147 0%, #003A7D 50%, #002147 100%);
 }
 
+@theme {
+  --animate-shake-x: shakeX 1.0s ease-in-out infinite;
+
+  @keyframes shakeX {
+
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+
+    50% {
+      transform: translateX(-5px);
+    }
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-primary: #00122E;
@@ -155,4 +171,11 @@ option {
 
 .swiper-pagination-bullet {
   @apply !bg-orange-500;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: -1.5em !important;
+  z-index: 999999;
+
 }

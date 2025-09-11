@@ -79,19 +79,22 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative m-4 rounded-2xl overflow-hidden shadow-lg">
-        <div className="swiper-container h-[30vh] lg:h-[calc(100vh-150px)]">
-          <div className="swiper-wrapper">
-            <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
-            <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/1708912/pexels-photo-1708912.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
-            <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/8197544/pexels-photo-8197544.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
-            <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/7944130/pexels-photo-7944130.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
+      <div className='relative'>
+        <section className="relative m-4 rounded-2xl overflow-hidden shadow-lg">
+          <div className="swiper-container h-[30vh] lg:h-[calc(100vh-150px)]">
+            <div className="swiper-wrapper">
+              <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
+              <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/1708912/pexels-photo-1708912.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
+              <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/8197544/pexels-photo-8197544.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
+              <div className="swiper-slide" style={{ backgroundImage: "url('https://images.pexels.com/photos/7944130/pexels-photo-7944130.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
+            </div>
+            <div className="swiper-button-next z-9999"></div>
+            <div className="swiper-button-prev z-9999"></div>
           </div>
-          <div className="swiper-button-next z-9999"></div>
-          <div className="swiper-button-prev z-9999"></div>
-          <div className="swiper-pagination"></div>
-        </div>
-      </section>
+        </section>
+        <div className="swiper-pagination"></div>
+        {/* The pagination */}
+      </div>
 
       {/* Popular Study Destinations Section */}
       <section className="md:py-10 pt-4">
@@ -122,10 +125,16 @@ export default function Home() {
             </Link>
           </div>
         </div>
+
+        <Link href="/universities" className="flex justify-center items-center mt-6 animate-shake-x scale-[0.75] lg:scale-100">
+          <span className='flex items-center gap-2 border border-orange-300 bg-orange-200/60 px-4 py-2 rounded-full'>
+            <p className=" font-base">Find More</p>
+            <i className="fa-solid fa-arrow-right"></i></span>
+        </Link>
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-gray-800">Comprehensive Study Abroad Services</h2>
           <p className="text-center text-gray-600 mt-2 mb-12">From initial consultation to graduation day, we provide end-to-end support.</p>

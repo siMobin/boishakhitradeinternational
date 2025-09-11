@@ -217,9 +217,7 @@ export default function ContactUs() {
                                     <div>
                                         <p className="font-semibold text-gray-900">Bangladesh Office</p>
                                         <address className="not-italic leading-relaxed">
-                                            50 DIT EXT. ROAD , ROOM NO #2, EASTERN VIEW BUILDING,
-                                            <br />
-                                            NAYAPALTAN, Dhaka, Bangladesh
+                                            50 DIT EXT. ROAD , Room No. #2, Eastern View Building, Nayapaltan, Dhaka, Bangladesh
                                         </address>
                                     </div>
                                 </div>

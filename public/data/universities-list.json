@@ -3,13 +3,27 @@
         "name": "City University Malaysia",
         "country": "Malaysia",
         "location": "Kuala Lumpur, Malaysia",
-        "image": "https://www.educationmalaysia.in/university/city-header-1738999884-1_1741435376.webp",
+        "image": "https://city.edu.my/wp-content/uploads/2025/06/PJ-campus_now.webp",
         "disciplines": [
             "Business",
             "Engineering"
         ],
         "learnMoreLink": "https://city.edu.my/",
         "applyLink": "https://city.edu.my/apply-now/"
+    },
+    {
+        "name": "INTI international University & Colleges",
+        "country": "Malaysia",
+        "location": "Nilai, Negeri Sembilan, Malaysia",
+        "image": "https://newinti.edu.my/wp-content/uploads/2021/07/IICS_campus_small-2.jpg",
+        "disciplines": [
+            "Business",
+            "Engineering",
+            "IT & Computer Science",
+            "Health Sciences"
+        ],
+        "learnMoreLink": "https://newinti.edu.my/",
+        "applyLink": "https://newinti.edu.my/enrol-with-us/"
     },
     {
         "name": "University of Malaya",
@@ -84,30 +98,6 @@
         "applyLink": "https://oxfordmagictours.com/contact/"
     },
     {
-        "name": "University of Toronto",
-        "country": "Canada",
-        "location": "Toronto, Canada",
-        "image": "https://www.narcity.com/media-library/university-of-toronto-buildings-at-st-george-campus.jpg?id=57013828&width=1245&height=700&quality=85&coordinates=0%2C0%2C0%2C0",
-        "disciplines": [
-            "Medicine",
-            "Data Science"
-        ],
-        "learnMoreLink": "https://www.utoronto.ca/",
-        "applyLink": "https://www.utoronto.ca/current-students"
-    },
-    {
-        "name": "Delft University of Technology",
-        "country": "Netherlands",
-        "location": "Delft, Netherlands",
-        "image": "https://www.greenroofs.com/wp-content/uploads/2018/09/delftlibrary1.jpg",
-        "disciplines": [
-            "Aerospace",
-            "Architecture"
-        ],
-        "learnMoreLink": "https://www.kth.se/en/studies/",
-        "applyLink": "https://www.kth.se/en/studies/"
-    },
-    {
         "name": "University Kuala Lumpur (UniKL)",
         "country": "Malaysia",
         "location": "Kuala Lumpur, Malaysia",
@@ -116,8 +106,8 @@
             "Technology",
             "Engineering"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.unikl.edu.my/",
+        "applyLink": "https://www.unikl.edu.my/admission/"
     },
     {
         "name": "Universiti Tun Abdul Razak (UNIRAZAK)",
@@ -128,8 +118,8 @@
             "Business",
             "Accounting"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.unirazak.edu.my/",
+        "applyLink": "https://www.unirazak.edu.my/admission/"
     },
     {
         "name": "University of Cyberjaya",
@@ -140,8 +130,8 @@
             "Medical",
             "Health Sciences"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://cyberjaya.edu.my/",
+        "applyLink": "https://cyberjaya.edu.my/admissions/"
     },
     {
         "name": "Alfa University College",
@@ -152,8 +142,8 @@
             "Design",
             "Architecture"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://alfa.edu.my/",
+        "applyLink": "https://alfa.edu.my/admissions/"
     },
     {
         "name": "Binary University",
@@ -164,8 +154,8 @@
             "Management",
             "IT"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://binary.edu.my/",
+        "applyLink": "https://binary.edu.my/admissions/"
     },
     {
         "name": "Lincoln University College",
@@ -176,8 +166,8 @@
             "Medicine",
             "Dentistry"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.lincoln.edu.my/",
+        "applyLink": "https://www.lincoln.edu.my/admission/"
     },
     {
         "name": "Universiti Tenaga Nasional (UNITEN)",
@@ -188,8 +178,8 @@
             "Engineering",
             "Computer Science"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.uniten.edu.my/",
+        "applyLink": "https://www.uniten.edu.my/admission/"
     },
     {
         "name": "Genovasi University College",
@@ -200,8 +190,8 @@
             "Innovation",
             "Entrepreneurship"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://genovasi.edu.my/",
+        "applyLink": "https://genovasi.edu.my/admissions/"
     },
     {
         "name": "University of Malaya Wales",
@@ -212,8 +202,8 @@
             "Business",
             "Computer Science"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.umw.edu.my/",
+        "applyLink": "https://www.umw.edu.my/admissions/"
     },
     {
         "name": "Asia e University",
@@ -224,8 +214,8 @@
             "Online Learning",
             "Postgraduate"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://aeu.edu.my/",
+        "applyLink": "https://aeu.edu.my/admissions/"
     },
     {
         "name": "Kolej SPACE",
@@ -236,8 +226,8 @@
             "Professional",
             "Continuing Education"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.space.edu.my/",
+        "applyLink": "https://www.space.edu.my/admissions/"
     },
     {
         "name": "International College of Management and Sports (ICMS)",
@@ -248,8 +238,8 @@
             "Sports Science",
             "Management"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://icms.edu.my/",
+        "applyLink": "https://icms.edu.my/admissions/"
     },
     {
         "name": "Universiti Tunku Abdul Rahman (UTAR)",
@@ -260,8 +250,8 @@
             "Business",
             "Engineering"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://utar.edu.my/",
+        "applyLink": "https://utar.edu.my/admissions/"
     },
     {
         "name": "Universiti Kebangsaan Malaysia (UKM)",
@@ -272,8 +262,8 @@
             "Social Sciences",
             "Medicine"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.ukm.my/",
+        "applyLink": "https://www.ukm.my/portal/ukm/admission/"
     },
     {
         "name": "Universiti Sains Malaysia (USM)",
@@ -284,8 +274,8 @@
             "Science",
             "Engineering"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.usm.my/",
+        "applyLink": "https://www.usm.my/admissions/"
     },
     {
         "name": "Universiti Teknologi Malaysia (UTM)",
@@ -296,8 +286,8 @@
             "Engineering",
             "Technology"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.utm.my/",
+        "applyLink": "https://admission.utm.my/"
     },
     {
         "name": "Universiti Teknologi PETRONAS (UTP)",
@@ -308,8 +298,8 @@
             "Engineering",
             "Technology"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.utp.edu.my/",
+        "applyLink": "https://admission.utp.edu.my/"
     },
     {
         "name": "Taylor's University",
@@ -320,8 +310,8 @@
             "Hospitality",
             "Business"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://university.taylors.edu.my/",
+        "applyLink": "https://university.taylors.edu.my/en/apply.html"
     },
     {
         "name": "Sunway University",
@@ -332,8 +322,8 @@
             "Business",
             "Medical"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://sunway.edu.my/",
+        "applyLink": "https://sunway.edu.my/admissions/"
     },
     {
         "name": "UCSI University",
@@ -344,8 +334,8 @@
             "Music",
             "Hospitality"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.ucsiuniversity.edu.my/",
+        "applyLink": "https://www.ucsiuniversity.edu.my/admissions"
     },
     {
         "name": "Asia Pacific University of Technology & Innovation (APU)",
@@ -356,8 +346,8 @@
             "Technology",
             "Innovation"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.apu.edu.my/",
+        "applyLink": "https://www.apu.edu.my/admissions/"
     },
     {
         "name": "Universiti Utara Malaysia (UUM)",
@@ -368,8 +358,8 @@
             "Management",
             "Business"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://uum.edu.my/",
+        "applyLink": "https://uum.edu.my/admission/"
     },
     {
         "name": "International Islamic University Malaysia (IIUM)",
@@ -380,8 +370,8 @@
             "Islamic Studies",
             "Human Sciences"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.iium.edu.my/",
+        "applyLink": "https://www.iium.edu.my/admissions/"
     },
     {
         "name": "Universiti Teknologi MARA (UiTM)",
@@ -392,8 +382,8 @@
             "Business",
             "Technology"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://uitm.edu.my/",
+        "applyLink": "https://uitm.edu.my/index.php/en/admission"
     },
     {
         "name": "Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA)",
@@ -404,8 +394,8 @@
             "Engineering",
             "Technology"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.ump.edu.my/",
+        "applyLink": "https://www.ump.edu.my/en/admission"
     },
     {
         "name": "Management and Science University (MSU)",
@@ -416,8 +406,8 @@
             "Management",
             "Health Science"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://www.msu.edu.my/",
+        "applyLink": "https://www.msu.edu.my/admissions/"
     },
     {
         "name": "SEGi University",
@@ -428,7 +418,1371 @@
             "Business",
             "Education"
         ],
-        "learnMoreLink": "#",
-        "applyLink": "#"
+        "learnMoreLink": "https://segi.edu.my/",
+        "applyLink": "https://segi.edu.my/admissions/"
+    },
+    {
+        "name": "Yale University",
+        "country": "United States",
+        "location": "New Haven, Connecticut",
+        "image": "https://ycwd.memberclicks.net/assets/aboutyale.png",
+        "disciplines": [
+            "Social Sciences",
+            "Biological and Biomedical Sciences",
+            "History",
+            "Engineering"
+        ],
+        "learnMoreLink": "https://www.yale.edu/",
+        "applyLink": "https://admissions.yale.edu/"
+    },
+    {
+        "name": "Massachusetts Institute of Technology",
+        "country": "United States",
+        "location": "Cambridge, Massachusetts",
+        "image": "https://cdn.britannica.com/17/100117-050-EA32F934/Massachusetts-Institute-of-Technology-Cambridge.jpg",
+        "disciplines": [
+            "Engineering",
+            "Computer Science",
+            "Physical Sciences",
+            "Economics"
+        ],
+        "learnMoreLink": "https://www.mit.edu/",
+        "applyLink": "https://mitadmissions.org/"
+    },
+    {
+        "name": "Princeton University",
+        "country": "United States",
+        "location": "Princeton, New Jersey",
+        "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f",
+        "disciplines": [
+            "Social Sciences",
+            "Engineering",
+            "Computer Science",
+            "Public Policy"
+        ],
+        "learnMoreLink": "https://www.princeton.edu/",
+        "applyLink": "https://admission.princeton.edu/"
+    },
+    {
+        "name": "University of Pennsylvania",
+        "country": "United States",
+        "location": "Philadelphia, Pennsylvania",
+        "image": "https://img.campusreform.org/eyJidWNrZXQiOiJjYW1wdXMucmVmb3JtIiwia2V5IjoiMTgxNjkvdTQ5eWFvVW50aXRsZWRkZXNpZ25ULjUyMSIsImVkaXRzIjp7ImdyYXlzY2FsZSI6ZmFsc2UsInJlc2l6ZSI6eyJ3aWR0aCI6MTAwMH19fQ==",
+        "disciplines": [
+            "Business",
+            "Health Professions",
+            "Social Sciences",
+            "Engineering"
+        ],
+        "learnMoreLink": "https://www.upenn.edu/",
+        "applyLink": "https://admissions.upenn.edu/"
+    },
+    {
+        "name": "Harvard University",
+        "country": "United States",
+        "location": "Cambridge, Massachusetts",
+        "image": "https://www.worldbook.com/images/shutterstock_186395066.jpg",
+        "disciplines": [
+            "Social Sciences",
+            "Biological Sciences",
+            "History",
+            "Mathematics"
+        ],
+        "learnMoreLink": "https://www.harvard.edu/",
+        "applyLink": "https://college.harvard.edu/admissions"
+    },
+    {
+        "name": "Stanford University",
+        "country": "United States",
+        "location": "Stanford, California",
+        "image": "https://visit.stanford.edu/assets/cardinal/images/home_palm_drive.jpg",
+        "disciplines": [
+            "Engineering",
+            "Computer Science",
+            "Social Sciences",
+            "Interdisciplinary Studies"
+        ],
+        "learnMoreLink": "https://www.stanford.edu/",
+        "applyLink": "https://admission.stanford.edu/"
+    },
+    {
+        "name": "Columbia University",
+        "country": "United States",
+        "location": "New York, New York",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/190150_hero.jpg?itok=LCmWnMi3",
+        "disciplines": [
+            "Social Sciences",
+            "Engineering",
+            "Computer Science",
+            "Biological Sciences"
+        ],
+        "learnMoreLink": "https://www.columbia.edu/",
+        "applyLink": "https://undergrad.admissions.columbia.edu/apply"
+    },
+    {
+        "name": "Cornell University",
+        "country": "United States",
+        "location": "Ithaca, New York",
+        "image": "https://www.appily.com/sites/default/files/styles/college_card/public/images/hero/college/190415_hero.jpg?itok=ZG9lkYGu",
+        "disciplines": [
+            "Engineering",
+            "Business",
+            "Biological Sciences",
+            "Computer Science"
+        ],
+        "learnMoreLink": "https://www.cornell.edu/",
+        "applyLink": "https://admissions.cornell.edu/"
+    },
+    {
+        "name": "University of California, Berkeley",
+        "country": "United States",
+        "location": "Berkeley, California",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/110635_hero.jpg?itok=WK1_obLi",
+        "disciplines": [
+            "Social Sciences",
+            "Engineering",
+            "Computer Science",
+            "Biological Sciences"
+        ],
+        "learnMoreLink": "https://www.berkeley.edu/",
+        "applyLink": "https://admissions.berkeley.edu/"
+    },
+    {
+        "name": "University of Chicago",
+        "country": "United States",
+        "location": "Chicago, Illinois",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/144050_hero.jpg?itok=_4Bw-VwT",
+        "disciplines": [
+            "Social Sciences",
+            "Mathematics",
+            "Biological Sciences",
+            "Physical Sciences"
+        ],
+        "learnMoreLink": "https://www.uchicago.edu/",
+        "applyLink": "https://collegeadmissions.uchicago.edu/"
+    },
+    {
+        "name": "California Institute of Technology",
+        "country": "United States",
+        "location": "Pasadena, California",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/110404_hero.jpg?itok=f2ZVfTTA",
+        "disciplines": [
+            "Engineering",
+            "Physical Sciences",
+            "Computer Science",
+            "Mathematics"
+        ],
+        "learnMoreLink": "https://www.caltech.edu/",
+        "applyLink": "https://www.admissions.caltech.edu/"
+    },
+    {
+        "name": "University of California, Los Angeles",
+        "country": "United States",
+        "location": "Los Angeles, California",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/110662_hero.jpg?itok=3iX44XEf",
+        "disciplines": [
+            "Social Sciences",
+            "Psychology",
+            "Biological Sciences",
+            "Economics"
+        ],
+        "learnMoreLink": "https://www.ucla.edu/",
+        "applyLink": "https://admission.ucla.edu/"
+    },
+    {
+        "name": "Northwestern University",
+        "country": "United States",
+        "location": "Evanston, Illinois",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/147767_hero.jpg?itok=sio7CwfY",
+        "disciplines": [
+            "Social Sciences",
+            "Journalism",
+            "Engineering",
+            "Performing Arts"
+        ],
+        "learnMoreLink": "https://www.northwestern.edu/",
+        "applyLink": "https://admissions.northwestern.edu/"
+    },
+    {
+        "name": "Duke University",
+        "country": "United States",
+        "location": "Durham, North Carolina",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/198419_hero.jpg?itok=74tGKros",
+        "disciplines": [
+            "Computer Science",
+            "Economics",
+            "Public Policy",
+            "Biology"
+        ],
+        "learnMoreLink": "https://duke.edu/",
+        "applyLink": "https://admissions.duke.edu/"
+    },
+    {
+        "name": "University of Michigan",
+        "country": "United States",
+        "location": "Ann Arbor, Michigan",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/170976_hero.jpg?itok=aX0ziexz",
+        "disciplines": [
+            "Engineering",
+            "Computer Science",
+            "Business",
+            "Social Sciences"
+        ],
+        "learnMoreLink": "https://umich.edu/",
+        "applyLink": "https://admissions.umich.edu/"
+    },
+    {
+        "name": "Johns Hopkins University",
+        "country": "United States",
+        "location": "Baltimore, Maryland",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/162928_hero.jpg?itok=uShcSewr",
+        "disciplines": [
+            "Public Health",
+            "Bioengineering",
+            "International Studies",
+            "Neuroscience"
+        ],
+        "learnMoreLink": "https://www.jhu.edu/",
+        "applyLink": "https://apply.jhu.edu/"
+    },
+    {
+        "name": "New York University",
+        "country": "United States",
+        "location": "New York, New York",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/193900_hero.jpg?itok=xGR_0X1x",
+        "disciplines": [
+            "Visual and Performing Arts",
+            "Social Sciences",
+            "Business",
+            "Liberal Arts"
+        ],
+        "learnMoreLink": "https://www.nyu.edu/",
+        "applyLink": "https://www.nyu.edu/admissions/undergraduate-admissions.html"
+    },
+    {
+        "name": "Carnegie Mellon University",
+        "country": "United States",
+        "location": "Pittsburgh, Pennsylvania",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/211440_hero.jpg?itok=2cnlgXQ9",
+        "disciplines": [
+            "Computer Science",
+            "Engineering",
+            "Fine Arts",
+            "Business"
+        ],
+        "learnMoreLink": "https://www.cmu.edu/",
+        "applyLink": "https://www.cmu.edu/admission/"
+    },
+    {
+        "name": "University of California San Diego",
+        "country": "United States",
+        "location": "La Jolla, California",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/110680_hero.jpg?itok=Yl9a53SM",
+        "disciplines": [
+            "Biology",
+            "Computer Science",
+            "Economics",
+            "Engineering"
+        ],
+        "learnMoreLink": "https://ucsd.edu/",
+        "applyLink": "https://admission.universityofcalifornia.edu/"
+    },
+    {
+        "name": "University of Texas At Austin",
+        "country": "United States",
+        "location": "Austin, Texas",
+        "image": "https://www.appily.com/sites/default/files/styles/max_2400/public/images/hero/college/228778_hero.jpg?itok=jfNiE_Gc",
+        "disciplines": [
+            "Business",
+            "Engineering",
+            "Communication",
+            "Social Sciences"
+        ],
+        "learnMoreLink": "https://www.utexas.edu/",
+        "applyLink": "https://admissions.utexas.edu/"
+    },
+    {
+        "name": "University of Washington",
+        "country": "United States",
+        "location": "Seattle, Washington",
+        "image": "https://images.axios.com/oJv84uuFPDd8dFiOkrJtYVAC9cM=/0x0:1920x1080/1920x1080/2022/10/06/1665090173966.png?w=1920",
+        "disciplines": [
+            "Social Sciences",
+            "Biological Sciences",
+            "Business",
+            "Engineering"
+        ],
+        "learnMoreLink": "https://www.washington.edu/",
+        "applyLink": "https://www.washington.edu/admissions/"
+    },
+    {
+        "name": "Delft University of Technology",
+        "country": "Netherlands",
+        "location": "Delft, Netherlands",
+        "image": "https://www.greenroofs.com/wp-content/uploads/2018/09/delftlibrary1.jpg",
+        "disciplines": [
+            "Aerospace",
+            "Architecture"
+        ],
+        "learnMoreLink": "https://www.tudelft.nl/en/education/",
+        "applyLink": "https://www.tudelft.nl/en/education/admission/"
+    },
+    {
+        "name": "University of Amsterdam",
+        "country": "Netherlands",
+        "location": "Amsterdam, Netherlands",
+        "image": "https://images.shiksha.com/mediadata/images/1534247890phpdtOeb7_g.png",
+        "disciplines": [
+            "Social Sciences",
+            "Business",
+            "Law"
+        ],
+        "learnMoreLink": "https://www.uva.nl/en/education",
+        "applyLink": "https://www.uva.nl/en/education/admission"
+    },
+    {
+        "name": "Leiden University",
+        "country": "Netherlands",
+        "location": "Leiden, Netherlands",
+        "image": "https://www.universiteitleiden.nl/binaries/content/gallery/ul2/main-images/general/banner-afbeeldingen/unsorted/student-centre-the-hague.jpg",
+        "disciplines": [
+            "International Law",
+            "Astronomy",
+            "Life Sciences"
+        ],
+        "learnMoreLink": "https://www.universiteitleiden.nl/en/education",
+        "applyLink": "https://www.universiteitleiden.nl/en/education/admission-and-application"
+    },
+    {
+        "name": "University of Groningen",
+        "country": "Netherlands",
+        "location": "Groningen, Netherlands",
+        "image": "https://thepienews.b-cdn.net/wp-content/uploads/2018/02/Screen-Shot-2018-02-05-at-13.42.07.jpg",
+        "disciplines": [
+            "Energy",
+            "Economics",
+            "Spatial Sciences"
+        ],
+        "learnMoreLink": "https://www.rug.nl/masters/",
+        "applyLink": "https://www.rug.nl/education/application-procedure/"
+    },
+    {
+        "name": "Erasmus University Rotterdam",
+        "country": "Netherlands",
+        "location": "Rotterdam, Netherlands",
+        "image": "https://www.eur.nl/sites/corporate/files/styles/responsive_w350/public/2017-10/ISS%20gebouw.jpg.avif?itok=Vhp9BBmV",
+        "disciplines": [
+            "Business",
+            "Medicine",
+            "Economics"
+        ],
+        "learnMoreLink": "https://www.eur.nl/en/education",
+        "applyLink": "https://www.eur.nl/en/education/practical-matters/application"
+    },
+    {
+        "name": "Eindhoven University of Technology",
+        "country": "Netherlands",
+        "location": "Eindhoven, Netherlands",
+        "image": "https://www.kth.se/polopoly_fs/1.1376857.1734452256!/image/studies2.webp",
+        "disciplines": [
+            "Engineering",
+            "Data Science",
+            "Design"
+        ],
+        "learnMoreLink": "https://www.tue.nl/en/education/",
+        "applyLink": "https://www.tue.nl/en/education/admission-and-enrolment/"
+    },
+    {
+        "name": "Maastricht University",
+        "country": "Netherlands",
+        "location": "Maastricht, Netherlands",
+        "image": "https://www.maastrichtuniversity.nl/sites/default/files/styles/3000x1050/public/2023-03/um-tapijn-202010-005_2.jpg?h=9dd951d5&itok=9KjjQ_DG",
+        "disciplines": [
+            "Health",
+            "European Law",
+            "Psychology"
+        ],
+        "learnMoreLink": "https://www.maastrichtuniversity.nl/education",
+        "applyLink": "https://www.maastrichtuniversity.nl/education/admission"
+    },
+    {
+        "name": "University of Twente",
+        "country": "Netherlands",
+        "location": "Enschede, Netherlands",
+        "image": "https://www.utwente.nl/.wh/ea/uc/i983276be01025cfdbb0338e4c801a7d36a303261cea40701c3b202840185/data.avif",
+        "disciplines": [
+            "Nanotechnology",
+            "Engineering",
+            "Entrepreneurship"
+        ],
+        "learnMoreLink": "https://www.utwente.nl/en/education/",
+        "applyLink": "https://www.utwente.nl/en/education/admission-and-application/"
+    },
+    {
+        "name": "Utrecht University",
+        "country": "Netherlands",
+        "location": "Utrecht, Netherlands",
+        "image": "https://uceap.universityofcalifornia.edu/sites/default/files/marketing-images/program-page-images/university-college-utrecht-header.jpg",
+        "disciplines": [
+            "Veterinary Medicine",
+            "Geosciences",
+            "Law"
+        ],
+        "learnMoreLink": "https://www.uu.nl/masters/en",
+        "applyLink": "https://www.uu.nl/masters/en/admission-and-application"
+    },
+    {
+        "name": "VU Amsterdam",
+        "country": "Netherlands",
+        "location": "Amsterdam, Netherlands",
+        "image": "https://assets-us-01.kc-usercontent.com/d8b6f1f5-816c-005b-1dc1-e363dd7ce9a5/3b3d5369-9be2-4a15-b861-b6248b508c69/rsz_rsz_1highres_tvv_p4280047_hoofdgebouw_1.jpg?w=1250&h=600&fit=clip&rect=0,173,2200,1056",
+        "disciplines": [
+            "Humanities",
+            "Neuroscience",
+            "Business Analytics"
+        ],
+        "learnMoreLink": "https://www.vu.nl/en/education",
+        "applyLink": "https://www.vu.nl/en/education/admission-and-application"
+    },
+    {
+        "name": "Wageningen University and Research",
+        "country": "Netherlands",
+        "location": "Wageningen, Netherlands",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/WUR_forum_building.JPG/500px-WUR_forum_building.JPG",
+        "disciplines": [
+            "Food Science",
+            "Agriculture",
+            "Environmental Studies"
+        ],
+        "learnMoreLink": "https://www.wur.nl/en/Education-Programmes.htm",
+        "applyLink": "https://www.wur.nl/en/Education-Programmes/How-to-apply.htm"
+    },
+    {
+        "name": "Radboud University",
+        "country": "Netherlands",
+        "location": "Nijmegen, Netherlands",
+        "image": "https://beyondthestates.com/wp-content/uploads/2024/05/Radboud-University-Campus.jpg",
+        "disciplines": [
+            "Cognitive Neuroscience",
+            "Natural Sciences",
+            "Philosophy"
+        ],
+        "learnMoreLink": "https://www.ru.nl/english/education/",
+        "applyLink": "https://www.ru.nl/english/education/admission-procedure/"
+    },
+    {
+        "name": "Tilburg University",
+        "country": "Netherlands",
+        "location": "Tilburg, Netherlands",
+        "image": "https://www.tilburguniversity.edu/sites/default/files/styles/epic_compact_large_x2/public/image/2250-Lange%2C-Tommy--de-.webp?h=5823a141&itok=YPLZuQrI",
+        "disciplines": [
+            "Economics",
+            "Law",
+            "Social & Behavioural Sciences"
+        ],
+        "learnMoreLink": "https://www.tilburguniversity.edu/education",
+        "applyLink": "https://www.tilburguniversity.edu/education/application"
+    },
+    {
+        "name": "Ludwig Maximilian University of Munich",
+        "country": "Germany",
+        "location": "Munich, Bavaria",
+        "image": "https://www.lsm.bio.lmu.de/0_assets/About-LSM---Photos/schmuckhof.jpg",
+        "disciplines": [
+            "Physics",
+            "Medicine",
+            "Economics"
+        ],
+        "learnMoreLink": "https://www.lmu.de/en/",
+        "applyLink": "https://www.lmu.de/en/"
+    },
+    {
+        "name": "Heidelberg University",
+        "country": "Germany",
+        "location": "Heidelberg, Baden-Württemberg",
+        "image": "https://backend.uni-heidelberg.de/sites/default/files/styles/img_1_1_aspect_0845/public/2018-06/bilder-266965-275361-original.jpg?h=a0951a4d&itok=AvdV4trb",
+        "disciplines": [
+            "Life Sciences",
+            "Medicine",
+            "Physics"
+        ],
+        "learnMoreLink": "https://www.uni-heidelberg.de/en",
+        "applyLink": "https://www.uni-heidelberg.de/en"
+    },
+    {
+        "name": "Freie Universität Berlin",
+        "country": "Germany",
+        "location": "Berlin",
+        "image": "https://www.fu-berlin.de/en/_inhalte-neu/intl-menschen.jpg?width=1300",
+        "disciplines": [
+            "Political Science",
+            "North-American Studies",
+            "Biology"
+        ],
+        "learnMoreLink": "https://www.fu-berlin.de/en/studium/index.html",
+        "applyLink": "https://www.fu-berlin.de/en/studium/bewerbung/index.html"
+    },
+    {
+        "name": "Karlsruhe Institute of Technology",
+        "country": "Germany",
+        "location": "Karlsruhe, Baden-Württemberg",
+        "image": "https://images.shiksha.com/mediadata/images/1535442840php6iuI85_g.jpg",
+        "disciplines": [
+            "Engineering",
+            "Computer Science",
+            "Energy Technology"
+        ],
+        "learnMoreLink": "https://www.kit.edu/study/",
+        "applyLink": "https://www.kit.edu/study/2426.php"
+    },
+    {
+        "name": "RWTH Aachen University",
+        "country": "Germany",
+        "location": "Aachen, North Rhine-Westphalia",
+        "image": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaadeimgkc&clip=center,888,592&w2=888&h2=592&q=75",
+        "disciplines": [
+            "Mechanical Engineering",
+            "Materials Science",
+            "Medicine"
+        ],
+        "learnMoreLink": "https://www.rwth-aachen.de/cms/~a/root/?lidx=1",
+        "applyLink": "https://www.rwth-aachen.de/cms/~a/root/?lidx=1"
+    },
+    {
+        "name": "Humboldt University of Berlin",
+        "country": "Germany",
+        "location": "Berlin",
+        "image": "https://www.hu-berlin.de/++resource++humboldt.frontpageslider.images/hu-big_1.jpg",
+        "disciplines": [
+            "Arts & Humanities",
+            "Social Sciences",
+            "Natural Sciences"
+        ],
+        "learnMoreLink": "https://www.hu-berlin.de/en",
+        "applyLink": "https://www.hu-berlin.de/en"
+    },
+    {
+        "name": "Universität Hamburg",
+        "country": "Germany",
+        "location": "Hamburg",
+        "image": "https://assets.rrz.uni-hamburg.de/instance_assets/uni/25056074/uhh-960x497-17c6f25e78b996e65cb170da40ad05d035eec642.jpg",
+        "disciplines": [
+            "Climate Research",
+            "Law",
+            "Informatics"
+        ],
+        "learnMoreLink": "https://www.uni-hamburg.de/",
+        "applyLink": "https://www.uni-hamburg.de/"
+    },
+    {
+        "name": "Albert Ludwigs University of Freiburg",
+        "country": "Germany",
+        "location": "Freiburg im Breisgau, Baden-Württemberg",
+        "image": "https://uni-freiburg.de/en/wp-content/uploads/sites/61/Studienstart-2021-Sandra-Meyndt-24-scaled-e1723710655455-1024x769-1.jpg",
+        "disciplines": [
+            "Sustainability",
+            "Life Sciences",
+            "Philosophy"
+        ],
+        "learnMoreLink": "https://uni-freiburg.de/en/",
+        "applyLink": "https://uni-freiburg.de/en/"
+    },
+    {
+        "name": "University of Bonn",
+        "country": "Germany",
+        "location": "Bonn, North Rhine-Westphalia",
+        "image": "https://www.uni-bonn.de/de/universitaet/medien-universitaet/medien-ueber-die-uni/hofgartensommer_volkerlannert-edb-5826-37246.jpg/images/image/preview",
+        "disciplines": [
+            "Mathematics",
+            "Agricultural Science",
+            "Economics"
+        ],
+        "learnMoreLink": "https://www.uni-bonn.de/en/studying",
+        "applyLink": "https://www.uni-bonn.de/en/studying/degree-programs/application"
+    },
+    {
+        "name": "University of Tübingen",
+        "country": "Germany",
+        "location": "Tübingen, Baden-Württemberg",
+        "image": "https://uni-tuebingen.de/fileadmin/_processed_/c/9/csm_Neue_Aula_web_5371bda6e2.jpg",
+        "disciplines": [
+            "Medicine",
+            "Theology",
+            "AI & Machine Learning"
+        ],
+        "learnMoreLink": "https://uni-tuebingen.de/en/study",
+        "applyLink": "https://uni-tuebingen.de/en/international/application"
+    },
+    {
+        "name": "Technische Universität Dresden",
+        "country": "Germany",
+        "location": "Dresden, Saxony",
+        "image": "https://tu-dresden.de/tu-dresden/ressourcen/bilder/tu-dresden-profil-portrait/FOE_neu_Lothar-Sprenger.jpg/@@images/97eecfea-0973-43a7-80e4-68ca23ea7cbf.jpeg",
+        "disciplines": [
+            "Engineering",
+            "Biomedicine",
+            "Microelectronics"
+        ],
+        "learnMoreLink": "https://tu-dresden.de/en/studium",
+        "applyLink": "https://tu-dresden.de/en/international/application"
+    },
+    {
+        "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "country": "Germany",
+        "location": "Erlangen & Nuremberg, Bavaria",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Schloss-Erlangen02.JPG/500px-Schloss-Erlangen02.JPG",
+        "disciplines": [
+            "Engineering",
+            "Business & Economics",
+            "Medicine"
+        ],
+        "learnMoreLink": "https://www.fau.eu/education/",
+        "applyLink": "https://www.fau.eu/education/how-to-apply/"
+    },
+    {
+        "name": "University of Göttingen",
+        "country": "Germany",
+        "location": "Göttingen, Lower Saxony",
+        "image": "https://prins.uni-goettingen.de/files/bilder/pic_f5ce6213dc20250902103025.jpg",
+        "disciplines": [
+            "Neuroscience",
+            "Agricultural Sciences",
+            "Physics"
+        ],
+        "learnMoreLink": "https://www.uni-goettingen.de/en/1.html",
+        "applyLink": "https://www.uni-goettingen.de/en/47375.html"
+    },
+    {
+        "name": "Technische Universität Darmstadt",
+        "country": "Germany",
+        "location": "Darmstadt, Hessen",
+        "image": "https://www.tu-darmstadt.de/media/daa_responsives_design/01_die_universitaet_medien/organisation/geschichte___persoenlichkeiten/geschichte_5/medien_geschichte_k06_1/1_5421-9759_S1-03_0x376.jpg",
+        "disciplines": [
+            "Computer Science",
+            "Mechanical Engineering",
+            "AI"
+        ],
+        "learnMoreLink": "https://www.tu-darmstadt.de/studium/index.en.jsp",
+        "applyLink": "https://www.tu-darmstadt.de/international/admission/index.en.jsp"
+    },
+    {
+        "name": "University of Cologne",
+        "country": "Germany",
+        "location": "Cologne, North Rhine-Westphalia",
+        "image": "https://oip.ku.edu.tr/wp-content/uploads/2015/11/university_of_cologne_campus_01.jpg",
+        "disciplines": [
+            "Economics",
+            "Law",
+            "Life Sciences"
+        ],
+        "learnMoreLink": "https://www.uni-koeln.de/en/studies",
+        "applyLink": "https://www.uni-koeln.de/en/studies/application"
+    },
+    {
+        "name": "University of Otago",
+        "country": "New Zealand",
+        "location": "Dunedin, New Zealand",
+        "image": "https://www.otago.ac.nz/__data/assets/image/0030/585507/thumb_life.jpg",
+        "disciplines": [
+            "Health Sciences",
+            "Biomedical Science",
+            "Law"
+        ],
+        "learnMoreLink": "https://www.otago.ac.nz",
+        "applyLink": "https://www.otago.ac.nz"
+    },
+    {
+        "name": "University of Auckland",
+        "country": "New Zealand",
+        "location": "Auckland, New Zealand",
+        "image": "https://www.auckland.ac.nz/content/auckland/en/science/about-the-faculty/our-faculty/rankings-and-reputation/jcr:content/leftpar/imagecomponent_468070002/image.img.1024.medium.jpg/1554177123428.jpg",
+        "disciplines": [
+            "Engineering",
+            "Business",
+            "Medicine"
+        ],
+        "learnMoreLink": "https://www.auckland.ac.nz",
+        "applyLink": "https://www.auckland.ac.nz"
+    },
+    {
+        "name": "University of Waikato",
+        "country": "New Zealand",
+        "location": "Hamilton & Tauranga, New Zealand",
+        "image": "https://www.waikato.ac.nz/assets/Uploads/About-us/Our-campuses/8467_photos_of_blossoms_around_campus_6__FocusFillWyItMC4zMiIsIi0wLjIwIiw5NjAsNTc2XQ.webp",
+        "disciplines": [
+            "Computer Science",
+            "Education",
+            "Māori & Indigenous Studies"
+        ],
+        "learnMoreLink": "https://www.waikato.ac.nz",
+        "applyLink": "https://www.waikato.ac.nz"
+    },
+    {
+        "name": "Victoria University of Wellington",
+        "country": "New Zealand",
+        "location": "Wellington, New Zealand",
+        "image": "https://www.ilwindia.com/wp-content/uploads/2019/08/Victoria-University-of-Wellington-New-Zealand.jpg",
+        "disciplines": [
+            "Film & Media",
+            "Architecture",
+            "Law"
+        ],
+        "learnMoreLink": "https://www.wgtn.ac.nz",
+        "applyLink": "https://www.wgtn.ac.nz"
+    },
+    {
+        "name": "Massey University",
+        "country": "New Zealand",
+        "location": "Auckland, Palmerston North & Wellington, New Zealand",
+        "image": "https://images.shiksha.com/mediadata/images/1535363251phpo8F5o9_g.png",
+        "disciplines": [
+            "Veterinary Science",
+            "Aviation",
+            "Food Technology"
+        ],
+        "learnMoreLink": "https://www.massey.ac.nz",
+        "applyLink": "https://www.massey.ac.nz"
+    },
+    {
+        "name": "Lincoln University",
+        "country": "New Zealand",
+        "location": "Lincoln, Canterbury, New Zealand",
+        "image": "https://www.lincoln.ac.nz/assets/Uploads/Campus-Map__FocusFillMaxWyIwLjAwIiwiMC4wMCIsNjc2LDM5OF0.jpg",
+        "disciplines": [
+            "Agriculture",
+            "Environmental Management",
+            "Land & Property"
+        ],
+        "learnMoreLink": "https://www.lincoln.ac.nz",
+        "applyLink": "https://www.lincoln.ac.nz"
+    },
+    {
+        "name": "University of Canterbury",
+        "country": "New Zealand",
+        "location": "Christchurch, New Zealand",
+        "image": "https://images-intl.prod.aws.idp-connect.com/commimg/myhotcourses/institution/CH/myhc_280599.jpg?fit=fill&w=1920&q=80&fm=webp",
+        "disciplines": [
+            "Engineering",
+            "Natural Hazards",
+            "Data Science"
+        ],
+        "learnMoreLink": "https://www.canterbury.ac.nz",
+        "applyLink": "https://www.canterbury.ac.nz"
+    },
+    {
+        "name": "AUT University",
+        "country": "New Zealand",
+        "location": "Auckland, New Zealand",
+        "image": "https://aut-edu.uz/img/containers/assets/components/arizona-2-p-800.jpg/dd5f296f5f019e3af3c2bf23fad7e40e/arizona-2-p-800.webp",
+        "disciplines": [
+            "Design",
+            "Hospitality",
+            "Sports Science"
+        ],
+        "learnMoreLink": "https://www.aut.ac.nz",
+        "applyLink": "https://www.aut.ac.nz"
+    },
+    {
+        "name": "Unitec Institute of Technology",
+        "country": "New Zealand",
+        "location": "Auckland, New Zealand",
+        "image": "https://stubard.com/wp-content/uploads/2025/02/Unitec-Institute-of-Technology-1.jpg",
+        "disciplines": [
+            "Construction",
+            "Applied Trades",
+            "Creative Industries"
+        ],
+        "learnMoreLink": "https://www.unitec.ac.nz",
+        "applyLink": "https://www.unitec.ac.nz"
+    },
+    {
+        "name": "Otago Polytechnic",
+        "country": "New Zealand",
+        "location": "Dunedin, Central Otago & Auckland, New Zealand",
+        "image": "https://images.shiksha.com/mediadata/images/1508913621phpd2F1Z3_g.jpg",
+        "disciplines": [
+            "Design",
+            "Nursing",
+            "Sustainable Practice"
+        ],
+        "learnMoreLink": "https://www.op.ac.nz",
+        "applyLink": "https://www.op.ac.nz"
+    },
+    {
+        "name": "Toi Ohomai Institute of Technology",
+        "country": "New Zealand",
+        "location": "Tauranga & Rotorua, New Zealand",
+        "image": "https://www.toiohomai.ac.nz/sites/default/files/2017-11/Windermere-Campus-M-Block-667x140.jpg",
+        "disciplines": [
+            "Forestry",
+            "Tourism",
+            "Applied Science"
+        ],
+        "learnMoreLink": "https://www.toiohomai.ac.nz",
+        "applyLink": "https://www.toiohomai.ac.nz"
+    },
+    {
+        "name": "The University of Queensland",
+        "country": "Australia",
+        "location": "Brisbane, Queensland",
+        "image": "https://www.avanse.com/blogs/images/st-louis-missouri-08222022-brookings-hall-danforth-campus-washington-university-st-louis_1048944-21621914.jpeg",
+        "disciplines": [
+            "Life Sciences",
+            "Engineering",
+            "Business"
+        ],
+        "learnMoreLink": "https://uq.edu.au",
+        "applyLink": "https://uq.edu.au"
+    },
+    {
+        "name": "University of Melbourne",
+        "country": "Australia",
+        "location": "Melbourne, Victoria",
+        "image": "https://www.unimelb.edu.au/__data/assets/image/0009/3822948/campuses.w600.min.jpg",
+        "disciplines": [
+            "Medicine",
+            "Law",
+            "Arts"
+        ],
+        "learnMoreLink": "https://unimelb.edu.au",
+        "applyLink": "https://unimelb.edu.au"
+    },
+    {
+        "name": "University of Sydney",
+        "country": "Australia",
+        "location": "Sydney, New South Wales",
+        "image": "https://storage.googleapis.com/drumline-experiment-cdn/sydney-uni/sydu-027-01/International_Events.jpg",
+        "disciplines": [
+            "Health",
+            "Engineering",
+            "Business"
+        ],
+        "learnMoreLink": "https://sydney.edu.au",
+        "applyLink": "https://sydney.edu.au"
+    },
+    {
+        "name": "Australian National University",
+        "country": "Australia",
+        "location": "Canberra, Australian Capital Territory",
+        "image": "https://www.anao.gov.au/sites/default/files/styles/anao_report/public/anao_report/image/anu-governance-control-frameworks-anao.jpg?itok=SLiFVAIP",
+        "disciplines": [
+            "Policy & Governance",
+            "Science",
+            "Asia-Pacific Studies"
+        ],
+        "learnMoreLink": "https://anu.edu.au",
+        "applyLink": "https://anu.edu.au"
+    },
+    {
+        "name": "Monash University",
+        "country": "Australia",
+        "location": "Melbourne, Victoria",
+        "image": "https://www.monash.edu/__data/assets/image/0006/511971/varieties/feature.box.jpg",
+        "disciplines": [
+            "Pharmacy",
+            "Engineering",
+            "Medicine"
+        ],
+        "learnMoreLink": "https://monash.edu",
+        "applyLink": "https://monash.edu"
+    },
+    {
+        "name": "The University of Western Australia",
+        "country": "Australia",
+        "location": "Perth, Western Australia",
+        "image": "https://images.shiksha.com/mediadata/images/1541403097phplpDP5l_g.jpg",
+        "disciplines": [
+            "Marine Science",
+            "Agriculture",
+            "Mining Engineering"
+        ],
+        "learnMoreLink": "https://uwa.edu.au",
+        "applyLink": "https://uwa.edu.au"
+    },
+    {
+        "name": "University of Adelaide",
+        "country": "Australia",
+        "location": "Adelaide, South Australia",
+        "image": "https://adelaideuni.edu.au/adobe/dynamicmedia/deliver/dm-aid--9cee3dbc-9c05-4322-8963-2ef6f2cc7ef9/hero-banner-sq-750x750-adelaide-city.jpg?width=1600&preferwebp=true&quality=82g",
+        "disciplines": [
+            "Wine & Food Science",
+            "Computer Science",
+            "Health"
+        ],
+        "learnMoreLink": "https://adelaide.edu.au",
+        "applyLink": "https://adelaide.edu.au"
+    },
+    {
+        "name": "University of Technology Sydney",
+        "country": "Australia",
+        "location": "Sydney, New South Wales",
+        "image": "https://universitiesaustralia.edu.au/wp-content/uploads/2019/06/UTS4_web.jpg",
+        "disciplines": [
+            "Design",
+            "IT",
+            "Engineering"
+        ],
+        "learnMoreLink": "https://uts.edu.au",
+        "applyLink": "https://uts.edu.au"
+    },
+    {
+        "name": "Curtin University",
+        "country": "Australia",
+        "location": "Perth, Western Australia",
+        "image": "https://s30991.pcdn.co/news/wp-content/uploads/2025/09/AdobeStock_512598633-1-1000x500.jpeg",
+        "disciplines": [
+            "Mining",
+            "Business",
+            "Health Sciences"
+        ],
+        "learnMoreLink": "https://curtin.edu.au",
+        "applyLink": "https://curtin.edu.au"
+    },
+    {
+        "name": "Macquarie University",
+        "country": "Australia",
+        "location": "Sydney, New South Wales",
+        "image": "https://images.shiksha.com/mediadata/images/1533723518phpzYjJlZ_g.jpg",
+        "disciplines": [
+            "Business",
+            "Linguistics",
+            "Medicine"
+        ],
+        "learnMoreLink": "https://mq.edu.au",
+        "applyLink": "https://mq.edu.au"
+    },
+    {
+        "name": "RMIT University",
+        "country": "Australia",
+        "location": "Melbourne, Victoria",
+        "image": "https://www.rmit.edu.au/content/dam/rmit/rmit-images/news/2025/may/australian-urban-observatory/news-stockland-houses2-1220x732px.jpg",
+        "disciplines": [
+            "Design",
+            "Engineering",
+            "Media"
+        ],
+        "learnMoreLink": "https://rmit.edu.au",
+        "applyLink": "https://rmit.edu.au"
+    },
+    {
+        "name": "Deakin University",
+        "country": "Australia",
+        "location": "Geelong & Melbourne, Victoria",
+        "image": "https://www.deakin.edu.au/__data/assets/image/0018/115902/deakin_stories5.png",
+        "disciplines": [
+            "Sports Science",
+            "Education",
+            "Cyber Security"
+        ],
+        "learnMoreLink": "https://deakin.edu.au",
+        "applyLink": "https://deakin.edu.au"
+    },
+    {
+        "name": "University of Newcastle",
+        "country": "Australia",
+        "location": "Newcastle, New South Wales",
+        "image": "https://images.shiksha.com/mediadata/images/1533723518phpzYjJlZ_g.jpg",
+        "disciplines": [
+            "Mining",
+            "Medicine",
+            "Engineering"
+        ],
+        "learnMoreLink": "https://newcastle.edu.au",
+        "applyLink": "https://newcastle.edu.au"
+    },
+    {
+        "name": "La Trobe University",
+        "country": "Australia",
+        "location": "Melbourne & Bendigo, Victoria",
+        "image": "https://www.ilwindia.com/wp-content/uploads/2019/06/La-Trobe-Unniversity-Australia-ILW-Overseas-Education.jpg",
+        "disciplines": [
+            "Agriculture",
+            "Health",
+            "Business"
+        ],
+        "learnMoreLink": "https://latrobe.edu.au",
+        "applyLink": "https://latrobe.edu.au"
+    },
+    {
+        "name": "Griffith University",
+        "country": "Australia",
+        "location": "Brisbane & Gold Coast, Queensland",
+        "image": "https://ol-content-api.global.ssl.fastly.net/sites/default/files/styles/scale_and_crop_center_890x320/public/2022-07/banner-griffith-1786x642-2022.png?itok=ZmbHSyrX",
+        "disciplines": [
+            "Criminology",
+            "Environmental Science",
+            "Arts"
+        ],
+        "learnMoreLink": "https://griffith.edu.au",
+        "applyLink": "https://griffith.edu.au"
+    },
+    {
+        "name": "Swinburne University of Technology",
+        "country": "Australia",
+        "location": "Melbourne, Victoria",
+        "image": "https://www.swinburne.edu.au/content/dam/media/place/swinburne-building-atc-201912-2.jpg/jcr:content/renditions/cq5dam.web.896.504.jpeg",
+        "disciplines": [
+            "Design",
+            "Engineering",
+            "IT"
+        ],
+        "learnMoreLink": "https://swinburne.edu.au",
+        "applyLink": "https://swinburne.edu.au"
+    },
+    {
+        "name": "University of Tasmania",
+        "country": "Australia",
+        "location": "Hobart & Launceston, Tasmania",
+        "image": "https://www.utas.edu.au/__data/assets/image/0008/1721987/UTAS_COHM_Rozelle_ParamedicineNursing_230223_OiStudios_DSC0025-HDR-1.jpg",
+        "disciplines": [
+            "Marine & Antarctic Science",
+            "Medicine",
+            "Arts"
+        ],
+        "learnMoreLink": "https://utas.edu.au",
+        "applyLink": "https://utas.edu.au"
+    },
+    {
+        "name": "University of Oxford",
+        "country": "United Kingdom",
+        "location": "Oxford, England",
+        "image": "https://www.ox.ac.uk/sites/files/oxford/styles/ow_listing/s3/field/field_image_highlight/Colleges_0.jpg?itok=IvP5da-G",
+        "disciplines": [
+            "Law",
+            "Medicine",
+            "PPE"
+        ],
+        "learnMoreLink": "https://ox.ac.uk",
+        "applyLink": "https://ox.ac.uk"
+    },
+    {
+        "name": "University of Cambridge",
+        "country": "United Kingdom",
+        "location": "Cambridge, England",
+        "image": "https://www.cam.ac.uk/sites/default/files/styles/homepage_social/public/instagram-cambridge-university-kings-college-chapel-visitors-576x324.jpg?itok=tiqWy6I8",
+        "disciplines": [
+            "Mathematics",
+            "Natural Sciences",
+            "Engineering"
+        ],
+        "learnMoreLink": "https://cam.ac.uk",
+        "applyLink": "https://cam.ac.uk"
+    },
+    {
+        "name": "Imperial College London",
+        "country": "United Kingdom",
+        "location": "London, England",
+        "image": "https://pxl-imperialacuk.terminalfour.net/fit-in/720x9999999/prod01/channel_3/media/images/landscape-3000X2000/JasonHawkes-631453-(1).jpg",
+        "disciplines": [
+            "Engineering",
+            "Medicine",
+            "Business"
+        ],
+        "learnMoreLink": "https://imperial.ac.uk",
+        "applyLink": "https://imperial.ac.uk"
+    },
+    {
+        "name": "London School of Economics",
+        "country": "United Kingdom",
+        "location": "London, England",
+        "image": "https://www.lse.ac.uk/study-at-lse/Assets/images/NAB-exterior-800x450.jpg",
+        "disciplines": [
+            "Economics",
+            "Politics",
+            "International Relations"
+        ],
+        "learnMoreLink": "https://lse.ac.uk",
+        "applyLink": "https://lse.ac.uk"
+    },
+    {
+        "name": "University of Edinburgh",
+        "country": "United Kingdom",
+        "location": "Edinburgh, Scotland",
+        "image": "https://www.ed.ac.uk/sites/default/files/styles/card_image_top/public/2024-11/Latest%20news.jpg.webp?itok=jzxoBBIz",
+        "disciplines": [
+            "Informatics",
+            "Medicine",
+            "Literature"
+        ],
+        "learnMoreLink": "https://ed.ac.uk",
+        "applyLink": "https://ed.ac.uk"
+    },
+    {
+        "name": "University of Manchester",
+        "country": "United Kingdom",
+        "location": "Manchester, England",
+        "image": "https://www.manchester.ac.uk/Support-Manchester.jpg",
+        "disciplines": [
+            "Engineering",
+            "Business",
+            "Science"
+        ],
+        "learnMoreLink": "https://manchester.ac.uk",
+        "applyLink": "https://manchester.ac.uk"
+    },
+    {
+        "name": "University of Warwick",
+        "country": "United Kingdom",
+        "location": "Coventry, England",
+        "image": "https://warwick.ac.uk/study/sum_694.jpg",
+        "disciplines": [
+            "Business",
+            "Mathematics",
+            "Manufacturing"
+        ],
+        "learnMoreLink": "https://warwick.ac.uk",
+        "applyLink": "https://warwick.ac.uk"
+    },
+    {
+        "name": "University of Toronto",
+        "country": "Canada",
+        "location": "Toronto, Canada",
+        "image": "https://www.narcity.com/media-library/university-of-toronto-buildings-at-st-george-campus.jpg?id=57013828&width=1245&height=700&quality=85&coordinates=0%2C0%2C0%2C0",
+        "disciplines": [
+            "Arts & Science",
+            "Engineering",
+            "Medicine",
+            "Business"
+        ],
+        "learnMoreLink": "https://www.utoronto.ca/",
+        "applyLink": "https://future.utoronto.ca/apply/"
+    },
+    {
+        "name": "University of British Columbia",
+        "country": "Canada",
+        "location": "Vancouver, Canada",
+        "image": "https://stubard.com/wp-content/uploads/2025/02/University-of-British-Columbia.jpg",
+        "disciplines": [
+            "Science",
+            "Arts",
+            "Engineering",
+            "Business"
+        ],
+        "learnMoreLink": "https://www.ubc.ca/",
+        "applyLink": "https://you.ubc.ca/applying-ubc/"
+    },
+    {
+        "name": "McGill University",
+        "country": "Canada",
+        "location": "Montreal, Canada",
+        "image": "https://images.shiksha.com/mediadata/images/1513922151phpyhMkzk_g.png",
+        "disciplines": [
+            "Arts",
+            "Science",
+            "Medicine",
+            "Law"
+        ],
+        "learnMoreLink": "https://www.mcgill.ca/",
+        "applyLink": "https://www.mcgill.ca/undergraduate-admissions/apply"
+    },
+    {
+        "name": "McMaster University",
+        "country": "Canada",
+        "location": "Hamilton, Canada",
+        "image": "https://www.itecanada.org/wp-content/uploads/2017/01/mcmaster-600x338.jpg",
+        "disciplines": [
+            "Health Sciences",
+            "Engineering",
+            "Business",
+            "Humanities"
+        ],
+        "learnMoreLink": "https://www.mcmaster.ca/",
+        "applyLink": "https://future.mcmaster.ca/apply/"
+    },
+    {
+        "name": "University of Alberta",
+        "country": "Canada",
+        "location": "Edmonton, Canada",
+        "image": "https://www.ualberta.ca/en/university-relations/media-library/community-relations/photos/12784-06-115-athabasca02.png",
+        "disciplines": [
+            "Engineering",
+            "Science",
+            "Arts",
+            "Business"
+        ],
+        "learnMoreLink": "https://www.ualberta.ca/",
+        "applyLink": "https://www.ualberta.ca/admissions/undergraduate/admission/index.html"
+    },
+    {
+        "name": "Université de Montréal",
+        "country": "Canada",
+        "location": "Montreal, Canada",
+        "image": "https://www.narcity.com/media-library/un-des-batiments-principaux-de-l-universite-de-montreal-est-illumine-le-soir.jpg?id=52248861&width=1245&height=700&quality=85&coordinates=45%2C0%2C45%2C0",
+        "disciplines": [
+            "Arts & Sciences",
+            "Medicine",
+            "Law",
+            "Pharmacy"
+        ],
+        "learnMoreLink": "https://www.umontreal.ca/",
+        "applyLink": "https://admission.umontreal.ca/"
+    },
+    {
+        "name": "University of Waterloo",
+        "country": "Canada",
+        "location": "Waterloo, Canada",
+        "image": "https://i0.wp.com/platformafrica.com/wp-content/uploads/2024/10/Tatham_Centre_sign_1200x900.jpg",
+        "disciplines": [
+            "Engineering",
+            "Mathematics",
+            "Computer Science",
+            "Health"
+        ],
+        "learnMoreLink": "https://uwaterloo.ca/",
+        "applyLink": "https://uwaterloo.ca/future-students/applying"
+    },
+    {
+        "name": "University of Ottawa",
+        "country": "Canada",
+        "location": "Ottawa, Canada",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/UOttawa-Tabaret_Hall-2008-05-05.jpg/500px-UOttawa-Tabaret_Hall-2008-05-05.jpg",
+        "disciplines": [
+            "Social Sciences",
+            "Law",
+            "Medicine",
+            "Engineering"
+        ],
+        "learnMoreLink": "https://www.uottawa.ca/en",
+        "applyLink": "https://www.uottawa.ca/undergraduate-admissions/apply"
+    },
+    {
+        "name": "University of Calgary",
+        "country": "Canada",
+        "location": "Calgary, Canada",
+        "image": "https://uniconexed.org/wp-content/uploads/2022/03/University-of-Calgary-1024x683.jpeg",
+        "disciplines": [
+            "Engineering",
+            "Business",
+            "Kinesiology",
+            "Science"
+        ],
+        "learnMoreLink": "https://www.ucalgary.ca/",
+        "applyLink": "https://www.ucalgary.ca/future-students/undergraduate/apply"
+    },
+    {
+        "name": "Western University",
+        "country": "Canada",
+        "location": "London, Canada",
+        "image": "https://www.uwo.ca/img/about/who-we-are/tower-thumb.jpg",
+        "disciplines": [
+            "Business",
+            "Health Sciences",
+            "Social Science",
+            "Engineering"
+        ],
+        "learnMoreLink": "https://www.uwo.ca/",
+        "applyLink": "https://welcome.uwo.ca/next-steps/apply/"
+    },
+    {
+        "name": "Université Laval",
+        "country": "Canada",
+        "location": "Quebec City, Canada",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Pavillon_Louis-Jacques-Casault_-_Universit%C3%A9_-Laval_-_Quebec_City_-_October_2007.jpg/500px-Pavillon_Louis-Jacques-Casault_-_Universit%C3%A9_-Laval_-_Quebec_City_-_October_2007.jpg",
+        "disciplines": [
+            "Forestry",
+            "Social Sciences",
+            "Health Sciences",
+            "Administration"
+        ],
+        "learnMoreLink": "https://www.ulaval.ca/",
+        "applyLink": "https://www.ulaval.ca/admission"
+    },
+    {
+        "name": "Dalhousie University",
+        "country": "Canada",
+        "location": "Halifax, Canada",
+        "image": "https://images.shiksha.com/mediadata/images/1533551497phpV6sL1U_g.jpg",
+        "disciplines": [
+            "Science",
+            "Computer Science",
+            "Health",
+            "Law"
+        ],
+        "learnMoreLink": "https://www.dal.ca/",
+        "applyLink": "https://www.dal.ca/admissions/apply.html"
+    },
+    {
+        "name": "Queen's University",
+        "country": "Canada",
+        "location": "Kingston, Canada",
+        "image": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/0d31/live/df33e640-e256-11ef-9895-2b17c6c3968e.jpg.webp",
+        "disciplines": [
+            "Arts & Science",
+            "Engineering",
+            "Business",
+            "Health Sciences"
+        ],
+        "learnMoreLink": "https://www.queensu.ca/",
+        "applyLink": "https://www.queensu.ca/admission/applying"
+    },
+    {
+        "name": "Simon Fraser University",
+        "country": "Canada",
+        "location": "Burnaby, Canada",
+        "image": "https://www.sfu.ca/content/sfu/students/admission/programs/jcr:content/main_content/image.img.2000.high.jpg/1692298308611.jpg",
+        "disciplines": [
+            "Computing Science",
+            "Business",
+            "Communication",
+            "Arts & Social Sciences"
+        ],
+        "learnMoreLink": "https://www.sfu.ca/",
+        "applyLink": "https://www.sfu.ca/students/admission/apply.html"
+    },
+    {
+        "name": "University of Victoria",
+        "country": "Canada",
+        "location": "Victoria, Canada",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Provincial_Normal_School%2C_Saanich%2C_British_Columbia%2C_Canada_03.jpg/500px-Provincial_Normal_School%2C_Saanich%2C_British_Columbia%2C_Canada_03.jpg",
+        "disciplines": [
+            "Engineering",
+            "Science",
+            "Humanities",
+            "Social Sciences"
+        ],
+        "learnMoreLink": "https://www.uvic.ca/",
+        "applyLink": "https://www.uvic.ca/undergraduate/admissions/how-to-apply/index.php"
+    },
+    {
+        "name": "University of Saskatchewan",
+        "country": "Canada",
+        "location": "Saskatoon, Canada",
+        "image": "https://i.cbc.ca/1.6010680.1681923304!/cumulusImage/httpImage/image.jpg_gen/derivatives/16x9_1180/university-of-saskatchewan.jpg",
+        "disciplines": [
+            "Agriculture",
+            "Arts & Science",
+            "Engineering",
+            "Medicine"
+        ],
+        "learnMoreLink": "https://www.usask.ca/",
+        "applyLink": "https://admissions.usask.ca/"
+    },
+    {
+        "name": "University of Guelph",
+        "country": "Canada",
+        "location": "Guelph, Canada",
+        "image": "https://www.uoguelph.ca/bioinformatics/sites/uoguelph.ca.bioinformatics/files/public/uploads/hero-about-university.jpg",
+        "disciplines": [
+            "Veterinary Medicine",
+            "Agriculture",
+            "Arts",
+            "Biological Science"
+        ],
+        "learnMoreLink": "https://www.uoguelph.ca/",
+        "applyLink": "https://admission.uoguelph.ca/"
+    },
+    {
+        "name": "University of Manitoba",
+        "country": "Canada",
+        "location": "Winnipeg, Canada",
+        "image": "https://images.shiksha.com/mediadata/images/1584445649phpcP2kk4_g.jpg",
+        "disciplines": [
+            "Science",
+            "Arts",
+            "Engineering",
+            "Health Sciences"
+        ],
+        "learnMoreLink": "https://umanitoba.ca/",
+        "applyLink": "https://umanitoba.ca/admissions"
     }
 ]

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
@@ -10,6 +11,9 @@ export default function Universities() {
     const [query, setQuery] = useState("");
     const [country, setCountry] = useState("all");
     const [filteredUniversities, setFilteredUniversities] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const universitiesPerPage = 12;
+    const router = useRouter();
 
     useEffect(() => {
         fetch('/data/universities-list.json')
@@ -22,6 +26,7 @@ export default function Universities() {
 
     useEffect(() => {
         filterUniversities();
+        setCurrentPage(1); // Reset to first page on filter change
     }, [query, country, universitiesData]);
 
     const filterUniversities = () => {
@@ -46,6 +51,52 @@ export default function Universities() {
     const handleSearchSubmit = (e) => {
         e.preventDefault();
         filterUniversities();
+        setCurrentPage(1); // Reset to first page on search
+    };
+
+    // Pagination logic
+    const indexOfLastUniversity = currentPage * universitiesPerPage;
+    const indexOfFirstUniversity = indexOfLastUniversity - universitiesPerPage;
+    const currentUniversities = filteredUniversities.slice(indexOfFirstUniversity, indexOfLastUniversity);
+    const totalPages = Math.ceil(filteredUniversities.length / universitiesPerPage);
+
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+    const generatePageNumbers = () => {
+        const pageNumbers = [];
+        const maxPageButtons = 3; // Show 5 page numbers at a time
+
+        if (totalPages <= maxPageButtons) {
+            for (let i = 1; i <= totalPages; i++) {
+                pageNumbers.push(i);
+            }
+        } else {
+            let startPage = Math.max(1, currentPage - Math.floor(maxPageButtons / 2));
+            let endPage = Math.min(totalPages, startPage + maxPageButtons - 1);
+
+            if (endPage - startPage + 1 < maxPageButtons) {
+                startPage = Math.max(1, endPage - maxPageButtons + 1);
+            }
+
+            if (startPage > 1) {
+                pageNumbers.push(1);
+                if (startPage > 2) {
+                    pageNumbers.push("...");
+                }
+            }
+
+            for (let i = startPage; i <= endPage; i++) {
+                pageNumbers.push(i);
+            }
+
+            if (endPage < totalPages) {
+                if (endPage < totalPages - 1) {
+                    pageNumbers.push("...");
+                }
+                pageNumbers.push(totalPages);
+            }
+        }
+        return pageNumbers;
     };
 
     return (
@@ -93,6 +144,8 @@ export default function Universities() {
                             <option value="United States">United States</option>
                             <option value="United Kingdom">United Kingdom</option>
                             <option value="Canada">Canada</option>
+                            <option value="Australia">Australia</option>
+                            <option value="New Zealand">New Zealand</option>
                             <option value="Netherlands">Netherlands</option>
                         </select>
 
@@ -106,8 +159,8 @@ export default function Universities() {
             <main className="flex-1">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
                     <div id="cardsGrid" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:mx-24">
-                        {filteredUniversities.length > 0 ? (
-                            filteredUniversities.map((uni, index) => (
+                        {currentUniversities.length > 0 ? (
+                            currentUniversities.map((uni, index) => (
                                 <article key={index} className="uni-card rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-lg transition">
                                     <div className="h-44 w-full overflow-hidden">
                                         <img className="w-full h-full object-cover" loading="lazy" src={uni.image} alt={`${uni.name} campus`} />
@@ -170,16 +223,44 @@ export default function Universities() {
                             <div id="noResults" className="text-center text-gray-600 py-12 col-span-full">No universities match your search.</div>
                         )}
                     </div>
+
+                    {/* Pagination Controls */}
+                    {totalPages > 1 && (
+                        <div className="flex justify-center items-center mt-8 space-x-2">
+
+                            <button
+                                onClick={() => paginate(currentPage - 1)}
+                                disabled={currentPage === 1}
+                                className="px-2 py-1 aspect-[3/1] border border-orange-200 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
+                                <i className="fa-solid fa-circle-chevron-left text-xl"></i>
+                            </button>
+                            {generatePageNumbers().map((pageNumber, index) => (
+                                pageNumber === "..." ? (
+                                    <span key={index} className="px-4 py-2 text-sm font-medium text-gray-700">...</span>
+                                ) : (
+                                    <button
+                                        key={index}
+                                        onClick={() => paginate(pageNumber)}
+                                        className={`px-2 py-1 aspect-[3/1] border border-orange-200 rounded-md text-sm font-medium ${currentPage === pageNumber ? 'bg-orange-500 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`}
+                                    >
+                                        {pageNumber}
+                                    </button>
+                                )
+                            ))}
+                            <button
+                                onClick={() => paginate(currentPage + 1)}
+                                disabled={currentPage === totalPages}
+                                className="px-2 py-1 aspect-[3/1] border border-orange-200 rounded-md text-gray-700 bg-white hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
+                                <i className="fa-solid fa-circle-chevron-right "></i>
+                            </button>
+
+                        </div>
+                    )}
                 </div>
             </main>
 
-            {/* Optional floating chat button */}
-            <button className="fixed bottom-6 right-6 hidden sm:inline-flex items-center justify-center w-14 h-14 rounded-full bg-blue-600 text-white shadow-lg hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-300">
-                <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <path d="M21 15a4 4 0 0 1-4 4H7l-4 4V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8z" />
-                </svg>
-                <span className="sr-only">Chat</span>
-            </button>
             <Footer />
         </div>
     );

@@ -20,33 +20,20 @@ export default function Footer() {
                     {/* Brand + blurb + socials */}
                     <div className="space-y-6">
                         <div className="flex items-center gap-3">
-                            <img src="/images/logo.png" alt="" className="h-16" />
+                            <img src="/images/logo.webp" alt="" className="h-20" />
                         </div>
 
                         <p className="text-orange-50 leading-relaxed">Your trusted partner for international education. We&apos;ve been helping students achieve their global education dreams for over a decade.</p>
 
-                        <div className="flex items-center gap-6 text-gray-100">
+                        <div className="flex items-center gap-6 text-gray-300 text-xl">
+                            <a href="https://www.facebook.com/share/16Wca9TeeA/?mibextid=wwXIfr" target="_blank" className="hover:text-white" aria-label="Facebook">
+                                <i className="fa-brands fa-tiktok"></i>
+                            </a>
                             <a href="https://youtube.com/@rtbrvlogs2295?si=cI-bNgJQZQk8KgvA" target="_blank" className="hover:text-white" aria-label="YouTube">
-                                <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                    <path d="M23.5 6.2a3.1 3.1 0 0 0-2.2-2.2C19.2 3.5 12 3.5 12 3.5s-7.2 0-9.3.5A3.1 3.1 0 0 0 .5 6.2 32 32 0 0 0 0 12a32 32 0 0 0 .5 5.8 3.1 3.1 0 0 0 2.2 2.2c2.1.5 9.3.5 9.3.5s7.2 0 9.3-.5a3.1 3.1 0 0 0 2.2-2.2A32 32 0 0 0 24 12a32 32 0 0 0-.5-5.8zM9.8 15.5v-7l6 3.5-6 3.5z" />
-                                </svg>
+                                <i className="fa-brands fa-youtube"></i>
                             </a>
                             <a href="https://www.facebook.com/share/16Wca9TeeA/?mibextid=wwXIfr" target="_blank" className="hover:text-white" aria-label="Facebook">
-                                <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                    <path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2.4V12h2.4V9.6c0-2.4 1.4-3.7 3.5-3.7 1 0 2 .2 2 .2v2.3h-1.1c-1.1 0-1.4.7-1.4 1.4V12h2.6l-.4 2.9h-2.2v7A10 10 0 0 0 22 12z" />
-                                </svg>
-                            </a>
-                            <a href="#" className="hover:text-white" aria-label="Scholarships">
-                                <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                                    <path d="M22 10l-10-5-10 5 10 5 10-5z" />
-                                    <path d="M6 12v5c0 .6 3.4 2 6 2s6-1.4 6-2v-5" />
-                                </svg>
-                            </a>
-                            <a href="#" className="hover:text-white" aria-label="Resources">
-                                <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-                                    <path d="M4 4v15.5A2.5 2.5 0 0 1 6.5 22H20V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
-                                </svg>
+                                <i className="fa-brands fa-facebook-f"></i>
                             </a>
                         </div>
                     </div>
@@ -75,8 +62,7 @@ export default function Footer() {
                                     <circle cx="12" cy="11" r="3" />
                                 </svg>
                                 <address className="not-italic leading-relaxed">
-                                    50 DIT EXT. ROAD , ROOM NO #2, EASTERN VIEW BUILDING <br />
-                                    ,NAYAPALTAN, Dhaka, Bangladesh
+                                    50 DIT EXT. ROAD , Room No. #2, Eastern View Building, Nayapaltan, Dhaka, Bangladesh
                                 </address>
                             </div>
 
